@@ -1,0 +1,114 @@
+Clear
+Set DefaultBaseFrequency=60
+
+New Circuit.Rede135 bus1=B1 basekv=13.8 pu=1.00 phases=3 mvasc3=3000 mvasc1=2500 
+
+Redirect LineCodes_135.dss
+Redirect Lines_135.dss
+Redirect Loads_135.dss
+
+
+
+//--------------------------------------------------------------------------------
+// Curves Time_current for fuses and Reclosers
+new TCC_Curve.Curve1  npts=21 c_array=( 300000  30000  15000  10000  5900  2700  1800  1300  1013  801  570  428  336  273  232  131  97  78  69  63  59) 
+~                             t_array=( 0.02  0.021  0.022  0.023  0.025  0.03  0.035  0.04  0.045  0.05  0.06  0.07  0.08  0.09  0.1  0.15  0.2  0.25  0.3  0.35  0.4)
+new TCC_Curve.Curve2  npts=22 c_array=( 300000  45000  25000  15000  8000  4000  2468  1666  1263  962  409  245  172  132  110  94  84  77  65  58  54  51) 
+~                             t_array=( 0.04  0.041  0.043  0.045  0.05  0.06  0.07  0.08  0.09  0.1  0.15  0.2  0.25  0.3  0.35  0.4  0.45  0.5  0.6  0.7  0.8  0.88)
+new TCC_Curve.Curve3  npts=23 c_array=( 300000  60000  30000  15000  10000  4700  3000  2100  1600  659  385  252  190  149  126  108  96  79  69  62  57  53  46) 
+~                             t_array=( 0.05  0.051  0.053  0.057  0.06  0.07  0.08  0.09  0.1  0.15  0.2  0.25  0.3  0.35  0.4  0.45  0.5  0.6  0.7  0.8  0.9  1  1.2)
+new TCC_Curve.Curve5  npts=8 c_array=( 300000  5400  1800  675  415  235  112  45) 
+~                            t_array=( 0.16  0.18  0.3  0.6  0.9  1.5  3  10)
+new TCC_Curve.Curve6  npts=16 c_array=( 300000  5400  4050  1800  1350  1157  853  675  476  368  300  219  172  142  112  45) 
+~                            t_array=( 0.8  0.9  1  1.5  1.8  2  2.5  3  4  5  6  8  10  12  15  50)
+
+
+//--------------------------------------------------------------------------------
+// Circuit breakers
+
+New Fuse.CB1_OpenDSS   MonitoredObj = line.L1 	MonitoredTerm = 1  Fusecurve=Curve6 ratedcurrent=1 enabled = false 
+New Fuse.CB2_OpenDSS   MonitoredObj = line.L1341 MonitoredTerm = 1  Fusecurve=Curve6 ratedcurrent=1 enabled = false 
+New Fuse.CB3_OpenDSS   MonitoredObj = line.L1351 MonitoredTerm = 1  Fusecurve=Curve6 ratedcurrent=1 enabled = false 
+New Fuse.CB4_OpenDSS   MonitoredObj = line.L1361 MonitoredTerm = 1  Fusecurve=Curve6 ratedcurrent=1 enabled = false 
+New Fuse.CB5_OpenDSS   MonitoredObj = line.L1371 MonitoredTerm = 1  Fusecurve=Curve6 ratedcurrent=1 enabled = false  
+New Fuse.CB6_OpenDSS   MonitoredObj = line.L1381 MonitoredTerm = 1  Fusecurve=Curve6 ratedcurrent=1 enabled = false  
+New Fuse.CB7_OpenDSS   MonitoredObj = line.L1391 MonitoredTerm = 1  Fusecurve=Curve6 ratedcurrent=1 enabled = false  
+New Fuse.CB8_OpenDSS   MonitoredObj = line.L1401 MonitoredTerm = 1  Fusecurve=Curve6 ratedcurrent=1 enabled = false  
+New Fuse.CB9_OpenDSS   MonitoredObj = line.L1411 MonitoredTerm = 1  Fusecurve=Curve6 ratedcurrent=1 enabled = false  
+
+
+
+
+//--------------------------------------------------------------------------------
+// Fuses
+
+New Fuse.Fuse1_OpenDSS	 MonitoredObj = line.L10	MonitoredTerm = 1	Fusecurve=Curve3 ratedcurrent=1	enabled = false	 
+New Fuse.Fuse2_OpenDSS	 MonitoredObj = line.L26	MonitoredTerm = 1	Fusecurve=Curve2 ratedcurrent=1	enabled = false	 
+New Fuse.Fuse3_OpenDSS	 MonitoredObj = line.L31	MonitoredTerm = 1	Fusecurve=Curve2 ratedcurrent=1	enabled = false	 
+New Fuse.Fuse4_OpenDSS	 MonitoredObj = line.L39	MonitoredTerm = 1	Fusecurve=Curve2 ratedcurrent=1	enabled = false	 
+New Fuse.Fuse5_OpenDSS	 MonitoredObj = line.L48	MonitoredTerm = 1	Fusecurve=Curve2 ratedcurrent=1	enabled = false	 
+New Fuse.Fuse6_OpenDSS	 MonitoredObj = line.L51	MonitoredTerm = 1	Fusecurve=Curve2 ratedcurrent=1	enabled = false	 
+New Fuse.Fuse7_OpenDSS	 MonitoredObj = line.L63	MonitoredTerm = 1	Fusecurve=Curve3 ratedcurrent=1	enabled = false	 
+New Fuse.Fuse8_OpenDSS	 MonitoredObj = line.L78	MonitoredTerm = 1	Fusecurve=Curve3 ratedcurrent=1	enabled = false	 
+New Fuse.Fuse9_OpenDSS	 MonitoredObj = line.L87	MonitoredTerm = 1	Fusecurve=Curve2 ratedcurrent=1	enabled = false	 
+New Fuse.Fuse10_OpenDSS	 MonitoredObj = line.L96   	MonitoredTerm = 1	Fusecurve=Curve2 ratedcurrent=1	enabled = false	 
+New Fuse.Fuse11_OpenDSS	 MonitoredObj = line.L103	MonitoredTerm = 1	Fusecurve=Curve2 ratedcurrent=1	enabled = false	 
+New Fuse.Fuse12_OpenDSS	 MonitoredObj = line.L107	MonitoredTerm = 1	Fusecurve=Curve2 ratedcurrent=1	enabled = false	 
+New Fuse.Fuse13_OpenDSS	 MonitoredObj = line.L111	MonitoredTerm = 1	Fusecurve=Curve3 ratedcurrent=1	enabled = false	 
+New Fuse.Fuse14_OpenDSS	 MonitoredObj = line.L121	MonitoredTerm = 1	Fusecurve=Curve2 ratedcurrent=1	enabled = false	 
+
+
+//--------------------------------------------------------------------------------
+// Reclosers
+
+
+new Recloser.Recloser1_OpenDSS monitoredobj=Line.L34 monitoredterm=1 switchedterm=1 delay=0.042 enabled = false
+~ numfast=1 phasefast=Curve1 phasedelayed=Curve5 phasetrip=1 tdphfast=1 tdphdelayed=1 
+~ shots=4 recloseintervals=(0.5, 2, 2)
+
+
+new Recloser.Recloser2_OpenDSS monitoredobj=Line.L88 monitoredterm=1 switchedterm=1 delay=0.042 enabled = false
+~ numfast=1 phasefast=Curve1 phasedelayed=Curve5 phasetrip=1 tdphfast=1 tdphdelayed=1 
+~ shots=4 recloseintervals=(0.5, 2, 2)
+
+
+//--------------------------------------------------------------------------------
+// Sectionalizing switch
+// normally closed
+
+
+New Swtcontrol.Switch1_OpenDSS	basefreq=60	Delay=0.0	SwitchedObj=Line.L21	SwitchedTerm=1	lock=no     Normal=closed	enabled=TRUE
+New Swtcontrol.Switch2_OpenDSS	basefreq=60	Delay=0.0	SwitchedObj=Line.L23	SwitchedTerm=1	lock=no	    Normal=closed	enabled=TRUE
+New Swtcontrol.Switch3_OpenDSS	basefreq=60	Delay=0.0	SwitchedObj=Line.L45	SwitchedTerm=1	lock=no     Normal=closed	enabled=TRUE
+New Swtcontrol.Switch4_OpenDSS	basefreq=60	Delay=0.0	SwitchedObj=Line.L60	SwitchedTerm=1	lock=no	    Normal=closed	enabled=TRUE
+New Swtcontrol.Switch5_OpenDSS	basefreq=60	Delay=0.0	SwitchedObj=Line.L75	SwitchedTerm=1	lock=no     Normal=closed	enabled=TRUE
+New Swtcontrol.Switch6_OpenDSS	basefreq=60	Delay=0.0	SwitchedObj=Line.L90	SwitchedTerm=1	lock=no	    Normal=closed	enabled=TRUE
+New Swtcontrol.Switch7_OpenDSS	basefreq=60	Delay=0.0	SwitchedObj=Line.L104	SwitchedTerm=1	lock=no	    Normal=closed	enabled=TRUE
+New Swtcontrol.Switch8_OpenDSS	basefreq=60	Delay=0.0	SwitchedObj=Line.L118	SwitchedTerm=1	lock=no     Normal=closed	enabled=TRUE
+
+//--------------------------------------------------------------------------------
+// dados dos Switches
+// normally open
+
+New Swtcontrol.Switch9_OpenDSS	basefreq=60	Delay=0.0	SwitchedObj=Line.L134	SwitchedTerm=2	lock=no     Normal=open		enabled=TRUE
+New Swtcontrol.Switch10_OpenDSS	basefreq=60	Delay=0.0	SwitchedObj=Line.L135	SwitchedTerm=2	lock=no     Normal=open		enabled=TRUE
+New Swtcontrol.Switch11_OpenDSS	basefreq=60	Delay=0.0	SwitchedObj=Line.L136	SwitchedTerm=2	lock=no	    Normal=open		enabled=TRUE
+New Swtcontrol.Switch12_OpenDSS	basefreq=60	Delay=0.0	SwitchedObj=Line.L141	SwitchedTerm=2	lock=no     Normal=open		enabled=TRUE
+New Swtcontrol.Switch13_OpenDSS	basefreq=60	Delay=0.0	SwitchedObj=Line.L137	SwitchedTerm=2	lock=no	    Normal=open		enabled=TRUE
+New Swtcontrol.Switch14_OpenDSS	basefreq=60	Delay=0.0	SwitchedObj=Line.L140	SwitchedTerm=2	lock=no     Normal=open		enabled=TRUE
+New Swtcontrol.Switch15_OpenDSS	basefreq=60	Delay=0.0	SwitchedObj=Line.L138	SwitchedTerm=2	lock=no	    Normal=open		enabled=TRUE
+New Swtcontrol.Switch16_OpenDSS	basefreq=60	Delay=0.0	SwitchedObj=Line.L139	SwitchedTerm=2	lock=no	    Normal=open		enabled=TRUE
+
+
+
+Set voltagebases = 13.8
+Calcvoltagebases
+
+set mode=snap
+
+Solve
+
+
+
+
+

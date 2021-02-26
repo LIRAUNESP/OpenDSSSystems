@@ -1,0 +1,30 @@
+
+//cable 336
+New Linecode.LineCode_1  nphases=3  r0=0.3208 x0=1.3850 r1=0.1864  x1=0.3838    units=km  baseFreq=60  !normamps=500  emergamps=150  
+
+//cable 2/0
+New Linecode.LineCode_2  nphases=3  r0=0.7372 x0=1.4958 r1=0.4703  x1=0.4188    units=km  baseFreq=60  !normamps=270  emergamps=2000  
+
+//cable 4/0
+New Linecode.LineCode_3  nphases=3  r0=0.4897 x0=1.4273 r1=0.2959  x1=0.4013    units=km  baseFreq=60  !normamps=365  emergamps=2000  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

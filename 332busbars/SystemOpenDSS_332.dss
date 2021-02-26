@@ -1,0 +1,505 @@
+//-----------------------------
+//Prof. Dr. Juan Carlos Cebrian
+//-----------------------------
+ 
+//------------------
+//CIRCUIT
+//------------------
+ 
+clear
+//--------------------------------------------// 
+Redirect        LoadShape.dss
+//--------------------------------------------//
+new circuit.RedeOpenDSS bus1 = 2261 pu = 1 basekv = 88 phases = 3 mvasc3 = 2158.70331449229 mvasc1 = 2061.55281280883 x1r1 = 4.20000008679926 x0r0 = 3.68978115260079 
+//-----------------------
+//------------------------------------//
+//Lines
+//--------------------------------------------//
+New line.line_MCLD204_3792 bus1 = 2126 bus2 = 446 length = 0.57119999 phases = 3 r1 = 0.23558439 x1 = 0.29560672 r0 = 0.73564098 x0 = 0.93550417 c1 = 0 c0 = 0 units = km normamps = 485.32773 
+New line.line_MCLD204_3799 bus1 = 446 bus2 = 548 length = 0.2814 phases = 3 r1 = 0.20060001 x1 = 0.40259999 r0 = 0.72000001 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3800 bus1 = 548 bus2 = 518 length = 0.1012 phases = 3 r1 = 0.2006 x1 = 0.40260001 r0 = 0.72000003 x0 = 1.407 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3801 bus1 = 518 bus2 = 517 length = 1.4464999 phases = 3 r1 = 0.2006 x1 = 0.40259999 r0 = 0.71999996 x0 = 1.407 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3803 bus1 = 517 bus2 = 515 length = 0.079800002 phases = 3 r1 = 0.24690001 x1 = 0.26100002 r0 = 0.74070002 x0 = 0.78299997 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3806 bus1 = 515 bus2 = 530 length = 0.070799999 phases = 3 r1 = 0.2469 x1 = 0.261 r0 = 0.7407 x0 = 0.78300001 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3807 bus1 = 516 bus2 = 513 length = 0.16799999 phases = 3 r1 = 1.4979135 x1 = 0.52805607 r0 = 1.7025174 x0 = 0.99488771 c1 = 0 c0 = 0 units = km normamps = 163.1125 
+New line.line_MCLD204_3808 bus1 = 2488 bus2 = 512 length = 0.034000002 phases = 3 r1 = 0.73940003 x1 = 0.3048 r0 = 2.2182 x0 = 0.9144 c1 = 0 c0 = 0 units = km normamps = 229 
+New line.line_MCLD204_3812 bus1 = 2486 bus2 = 2483 length = 0.043000001 phases = 3 r1 = 0.73939999 x1 = 0.30479999 r0 = 2.2182 x0 = 0.91440001 c1 = 0 c0 = 0 units = km normamps = 229 
+New line.line_MCLD204_3814 bus1 = 498 bus2 = 497 length = 0.0337 phases = 3 r1 = 0.24689998 x1 = 0.261 r0 = 0.7407 x0 = 0.78300004 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3815 bus1 = 2486 bus2 = 2482 length = 0.92530003 phases = 3 r1 = 0.20118544 x1 = 0.40080953 r0 = 0.72026177 x0 = 1.3991098 c1 = 0 c0 = 0 units = km normamps = 574.48265 
+New line.line_MCLD204_3819 bus1 = 2482 bus2 = 2479 length = 0.2038 phases = 3 r1 = 0.21354946 x1 = 0.36299648 r0 = 0.72578951 x0 = 1.2324759 c1 = 0 c0 = 0 units = km normamps = 542.43768 
+New line.line_MCLD204_3817 bus1 = 496 bus2 = 493 length = 0.1016 phases = 3 r1 = 0.24690001 x1 = 0.26100001 r0 = 0.74070001 x0 = 0.783 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3818 bus1 = 496 bus2 = 492 length = 0.097999997 phases = 3 r1 = 0.2469 x1 = 0.26100001 r0 = 0.74070005 x0 = 0.78300002 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3820 bus1 = 494 bus2 = 490 length = 0.1016 phases = 3 r1 = 0.24690001 x1 = 0.26100001 r0 = 0.74070001 x0 = 0.783 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3821 bus1 = 494 bus2 = 489 length = 0.066 phases = 3 r1 = 0.2469 x1 = 0.26100002 r0 = 0.74070001 x0 = 0.78299998 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3824 bus1 = 491 bus2 = 486 length = 0.1286 phases = 3 r1 = 0.24690002 x1 = 0.26100001 r0 = 0.74070001 x0 = 0.78299999 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3825 bus1 = 491 bus2 = 485 length = 0.0995 phases = 3 r1 = 0.24690002 x1 = 0.26100001 r0 = 0.74070006 x0 = 0.78299998 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3827 bus1 = 487 bus2 = 482 length = 0.093900003 phases = 3 r1 = 0.24690002 x1 = 0.261 r0 = 0.74070003 x0 = 0.78299998 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3831 bus1 = 482 bus2 = 531 length = 0.064499997 phases = 3 r1 = 0.24690002 x1 = 0.26100001 r0 = 0.74070004 x0 = 0.78299997 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3829 bus1 = 487 bus2 = 481 length = 0.1014 phases = 3 r1 = 0.24689999 x1 = 0.261 r0 = 0.74070006 x0 = 0.78300001 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3832 bus1 = 484 bus2 = 479 length = 0.1417 phases = 3 r1 = 0.24690001 x1 = 0.26100003 r0 = 0.74070001 x0 = 0.78299996 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3834 bus1 = 484 bus2 = 478 length = 0.093900003 phases = 3 r1 = 0.24690002 x1 = 0.261 r0 = 0.74070003 x0 = 0.78299998 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3836 bus1 = 451 bus2 = 450 length = 0.15979999 phases = 3 r1 = 0.20059998 x1 = 0.40259998 r0 = 0.72000005 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3840 bus1 = 450 bus2 = 425 length = 0.2051 phases = 3 r1 = 0.20059999 x1 = 0.40259999 r0 = 0.72000005 x0 = 1.4069998 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3837 bus1 = 480 bus2 = 474 length = 0.0757 phases = 3 r1 = 0.24690002 x1 = 0.26100001 r0 = 0.74070001 x0 = 0.78299995 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3838 bus1 = 480 bus2 = 475 length = 0.093599997 phases = 3 r1 = 0.2469 x1 = 0.26100002 r0 = 0.74069997 x0 = 0.78299998 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3842 bus1 = 476 bus2 = 470 length = 0.092699997 phases = 3 r1 = 0.24690002 x1 = 0.26100001 r0 = 0.74069998 x0 = 0.783 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3844 bus1 = 476 bus2 = 472 length = 0.1019 phases = 3 r1 = 0.24690001 x1 = 0.26100001 r0 = 0.74069998 x0 = 0.78299999 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3846 bus1 = 509 bus2 = 505 length = 0.033500001 phases = 3 r1 = 0.24690001 x1 = 0.261 r0 = 0.74070002 x0 = 0.783 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3848 bus1 = 473 bus2 = 468 length = 0.1024 phases = 3 r1 = 0.24690001 x1 = 0.26100001 r0 = 0.74069999 x0 = 0.78300005 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3849 bus1 = 473 bus2 = 467 length = 0.090300001 phases = 3 r1 = 0.24690001 x1 = 0.261 r0 = 0.74069999 x0 = 0.783 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3856 bus1 = 467 bus2 = 534 length = 0.064499997 phases = 3 r1 = 0.24690002 x1 = 0.26100001 r0 = 0.74070004 x0 = 0.78299997 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3855 bus1 = 506 bus2 = 503 length = 0.032600001 phases = 3 r1 = 0.2469 x1 = 0.26100001 r0 = 0.74070005 x0 = 0.78300001 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3857 bus1 = 469 bus2 = 464 length = 0.1022 phases = 3 r1 = 0.24690001 x1 = 0.26100001 r0 = 0.74070004 x0 = 0.78299999 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3858 bus1 = 469 bus2 = 463 length = 0.0902 phases = 3 r1 = 0.24690001 x1 = 0.26100002 r0 = 0.74069997 x0 = 0.783 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3865 bus1 = 2301 bus2 = 2281 length = 0.2339 phases = 3 r1 = 0.2469 x1 = 0.26100001 r0 = 0.74070003 x0 = 0.78299994 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3868 bus1 = 2281 bus2 = 2476 length = 0.093999997 phases = 3 r1 = 0.2469 x1 = 0.261 r0 = 0.74069995 x0 = 0.78300004 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3860 bus1 = 504 bus2 = 501 length = 0.0286 phases = 3 r1 = 0.24690001 x1 = 0.261 r0 = 0.74069998 x0 = 0.78300004 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3861 bus1 = 504 bus2 = 502 length = 0.0911 phases = 3 r1 = 0.24690001 x1 = 0.261 r0 = 0.74070004 x0 = 0.78299997 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3862 bus1 = 465 bus2 = 462 length = 0.088299997 phases = 3 r1 = 0.24690002 x1 = 0.26100001 r0 = 0.74070005 x0 = 0.78300005 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3863 bus1 = 465 bus2 = 461 length = 0.1012 phases = 3 r1 = 0.24690001 x1 = 0.261 r0 = 0.74069996 x0 = 0.78300001 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3864 bus1 = 2478 bus2 = 2268 length = 0.2252 phases = 3 r1 = 1.0145001 x1 = 0.46790001 r0 = 1.7625001 x0 = 1.8902 c1 = 0 c0 = 0 units = km normamps = 201 
+New line.line_MCLD204_3867 bus1 = 2268 bus2 = 2267 length = 0.1859 phases = 3 r1 = 1.0145001 x1 = 0.46790004 r0 = 1.7625001 x0 = 1.8902 c1 = 0 c0 = 0 units = km normamps = 201 
+New line.line_MCLD204_3870 bus1 = 528 bus2 = 526 length = 0.13519999 phases = 3 r1 = 0.24690001 x1 = 0.26100001 r0 = 0.74069998 x0 = 0.78300002 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3872 bus1 = 2267 bus2 = 2265 length = 0.0165 phases = 3 r1 = 1.0145001 x1 = 0.46790002 r0 = 1.7625001 x0 = 1.8902 c1 = 0 c0 = 0 units = km normamps = 201 
+New line.line_MCLD204_3873 bus1 = 527 bus2 = 525 length = 0.0184 phases = 3 r1 = 0.24690001 x1 = 0.261 r0 = 0.74070003 x0 = 0.78299997 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3877 bus1 = 525 bus2 = 522 length = 0.1769 phases = 3 r1 = 0.24690001 x1 = 0.26100001 r0 = 0.74069996 x0 = 0.78300001 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3874 bus1 = 527 bus2 = 524 length = 0.14300001 phases = 3 r1 = 0.2469 x1 = 0.26100001 r0 = 0.7407 x0 = 0.783 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3878 bus1 = 524 bus2 = 523 length = 0.1873 phases = 3 r1 = 0.24690001 x1 = 0.261 r0 = 0.74070002 x0 = 0.78300002 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3880 bus1 = 2476 bus2 = 2297 length = 0.1843 phases = 3 r1 = 0.2469 x1 = 0.26100002 r0 = 0.7407 x0 = 0.78299999 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3882 bus1 = 2297 bus2 = 2296 length = 0.033100002 phases = 3 r1 = 0.24690003 x1 = 0.26100002 r0 = 0.74070001 x0 = 0.78299998 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3879 bus1 = 2267 bus2 = 2263 length = 0.1524 phases = 3 r1 = 0.79319253 x1 = 0.33669227 r0 = 2.1290933 x0 = 1.105206 c1 = 0 c0 = 0 units = km normamps = 223.52493 
+New line.line_MCLD204_3893 bus1 = 2467 bus2 = 2466 length = 0.086900003 phases = 3 r1 = 0.2006 x1 = 0.40259999 r0 = 0.71999998 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3896 bus1 = 2466 bus2 = 2463 length = 0.063000001 phases = 3 r1 = 0.2006 x1 = 0.40259998 r0 = 0.72000004 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3895 bus1 = 2285 bus2 = 2283 length = 0.013 phases = 3 r1 = 0.32499998 x1 = 0.117 r0 = 0.975 x0 = 0.35099998 c1 = 0 c0 = 0 units = km normamps = 295 
+New line.line_MCLD204_3897 bus1 = 2463 bus2 = 2462 length = 0.0294 phases = 3 r1 = 0.2006 x1 = 0.40260002 r0 = 0.72000005 x0 = 1.407 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3898 bus1 = 2462 bus2 = 2461 length = 0.076899998 phases = 3 r1 = 0.2006 x1 = 0.40259997 r0 = 0.72000005 x0 = 1.407 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3900 bus1 = 2458 bus2 = 2456 length = 0.0537 phases = 3 r1 = 0.2006 x1 = 0.4026 r0 = 0.72000003 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3902 bus1 = 2456 bus2 = 2455 length = 0.078100003 phases = 3 r1 = 0.2006 x1 = 0.4026 r0 = 0.72000005 x0 = 1.407 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3901 bus1 = 2458 bus2 = 2321 length = 0.15800001 phases = 3 r1 = 1.0145001 x1 = 0.4679 r0 = 1.7625001 x0 = 1.8902 c1 = 0 c0 = 0 units = km normamps = 201 
+New line.line_MCLD204_3903 bus1 = 2455 bus2 = 2454 length = 0.037700001 phases = 3 r1 = 0.2006 x1 = 0.40259999 r0 = 0.72000004 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3905 bus1 = 2454 bus2 = 2453 length = 0.20559999 phases = 3 r1 = 0.21544032 x1 = 0.35721363 r0 = 0.72663488 x0 = 1.2069921 c1 = 0 c0 = 0 units = km normamps = 537.53696 
+New line.line_MCLD204_3904 bus1 = 2455 bus2 = 2332 length = 0.1736 phases = 3 r1 = 1.0145 x1 = 0.46790001 r0 = 1.7625001 x0 = 1.8902001 c1 = 0 c0 = 0 units = km normamps = 201 
+New line.line_MCLD204_3906 bus1 = 2332 bus2 = 2331 length = 0.098999999 phases = 3 r1 = 1.0145001 x1 = 0.46789998 r0 = 1.7625 x0 = 1.8902 c1 = 0 c0 = 0 units = km normamps = 201 
+New line.line_MCLD204_3909 bus1 = 2453 bus2 = 2452 length = 0.2554 phases = 3 r1 = 0.2469 x1 = 0.26100003 r0 = 0.74070001 x0 = 0.78300001 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3911 bus1 = 2452 bus2 = 2451 length = 0.064999998 phases = 3 r1 = 0.24690002 x1 = 0.26100001 r0 = 0.74069999 x0 = 0.78300001 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3908 bus1 = 2331 bus2 = 2330 length = 0.051899999 phases = 3 r1 = 1.0145 x1 = 0.46790002 r0 = 1.7625 x0 = 1.8902 c1 = 0 c0 = 0 units = km normamps = 201 
+New line.line_MCLD204_3912 bus1 = 2328 bus2 = 2327 length = 0.088100001 phases = 3 r1 = 0.7394 x1 = 0.30480002 r0 = 2.2182001 x0 = 0.91440001 c1 = 0 c0 = 0 units = km normamps = 229 
+New line.line_MCLD204_3913 bus1 = 2328 bus2 = 2326 length = 0.1486 phases = 3 r1 = 0.73940005 x1 = 0.3048 r0 = 2.2182 x0 = 0.91439992 c1 = 0 c0 = 0 units = km normamps = 229 
+New line.line_MCLD204_3915 bus1 = 2449 bus2 = 2444 length = 0.0209 phases = 3 r1 = 0.24690001 x1 = 0.26100002 r0 = 0.7407 x0 = 0.78299994 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3918 bus1 = 2444 bus2 = 2442 length = 0.093699999 phases = 3 r1 = 0.2469 x1 = 0.261 r0 = 0.74069999 x0 = 0.78299998 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3919 bus1 = 2443 bus2 = 2338 length = 0.207 phases = 3 r1 = 1.0145001 x1 = 0.46790004 r0 = 1.7625001 x0 = 1.8902001 c1 = 0 c0 = 0 units = km normamps = 201 
+New line.line_MCLD204_3921 bus1 = 2338 bus2 = 2337 length = 0.1745 phases = 3 r1 = 1.0145 x1 = 0.46790002 r0 = 1.7625001 x0 = 1.8902001 c1 = 0 c0 = 0 units = km normamps = 201 
+New line.line_MCLD204_3920 bus1 = 2442 bus2 = 2440 length = 0.076300003 phases = 3 r1 = 0.2469 x1 = 0.26099999 r0 = 0.74070004 x0 = 0.78299998 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3922 bus1 = 2440 bus2 = 2439 length = 0.065899998 phases = 3 r1 = 0.2469 x1 = 0.26100002 r0 = 0.74069998 x0 = 0.78299998 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3923 bus1 = 2337 bus2 = 2334 length = 0.034899998 phases = 3 r1 = 1.0145 x1 = 0.46789999 r0 = 1.7625 x0 = 1.8902 c1 = 0 c0 = 0 units = km normamps = 201 
+New line.line_MCLD204_3926 bus1 = 2334 bus2 = 568 length = 0.1946 phases = 3 r1 = 1.0145 x1 = 0.46790003 r0 = 1.7625 x0 = 1.8902001 c1 = 0 c0 = 0 units = km normamps = 201 
+New line.line_MCLD204_3928 bus1 = 568 bus2 = 565 length = 0.53380001 phases = 3 r1 = 1.3588403 x1 = 0.49698055 r0 = 2.107446 x0 = 1.923852 c1 = 0 c0 = 0 units = km normamps = 174.01236 
+New line.line_MCLD204_3927 bus1 = 2437 bus2 = 2319 length = 0.1811 phases = 3 r1 = 0.2469 x1 = 0.26100002 r0 = 0.74070006 x0 = 0.78300002 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3929 bus1 = 2319 bus2 = 2318 length = 0.31349999 phases = 3 r1 = 0.2469 x1 = 0.261 r0 = 0.74070003 x0 = 0.78299997 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3931 bus1 = 2318 bus2 = 2317 length = 0.2485 phases = 3 r1 = 0.2469 x1 = 0.26100002 r0 = 0.74070004 x0 = 0.78299999 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3932 bus1 = 2317 bus2 = 2316 length = 0.029300001 phases = 3 r1 = 0.24690002 x1 = 0.26100001 r0 = 0.74070003 x0 = 0.78299998 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3933 bus1 = 2316 bus2 = 2314 length = 0.3506 phases = 3 r1 = 0.24690002 x1 = 0.26100001 r0 = 0.74069999 x0 = 0.78299998 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3935 bus1 = 2314 bus2 = 2312 length = 0.1276 phases = 3 r1 = 0.24690002 x1 = 0.261 r0 = 0.7407 x0 = 0.78299995 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3940 bus1 = 2294 bus2 = 2290 length = 0.062700001 phases = 3 r1 = 0.20591674 x1 = 0.38633973 r0 = 0.72237703 x0 = 1.3353445 c1 = 0 c0 = 0 units = km normamps = 562.2201 
+New line.line_MCLD204_3941 bus1 = 2290 bus2 = 2289 length = 0.1718 phases = 3 r1 = 0.2006 x1 = 0.40260002 r0 = 0.72000007 x0 = 1.407 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3943 bus1 = 2289 bus2 = 2288 length = 0.024599999 phases = 3 r1 = 0.2006 x1 = 0.40259996 r0 = 0.72000005 x0 = 1.407 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3942 bus1 = 2434 bus2 = 2431 length = 0.1218 phases = 3 r1 = 0.24690002 x1 = 0.26100002 r0 = 0.74070006 x0 = 0.783 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3944 bus1 = 2431 bus2 = 2430 length = 0.27540001 phases = 3 r1 = 0.2469 x1 = 0.26099999 r0 = 0.74070001 x0 = 0.78299999 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3945 bus1 = 2430 bus2 = 2429 length = 0.25189999 phases = 3 r1 = 0.24690001 x1 = 0.26100001 r0 = 0.74070005 x0 = 0.783 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3946 bus1 = 2429 bus2 = 2427 length = 0.19859999 phases = 3 r1 = 0.24550072 x1 = 0.2368122 r0 = 0.7365021 x0 = 0.71043656 c1 = 0 c0 = 0 units = km normamps = 449.80312 
+New line.line_MCLD204_3951 bus1 = 547 bus2 = 544 length = 0.037300002 phases = 3 r1 = 0.73940003 x1 = 0.30479999 r0 = 2.2182 x0 = 0.91440006 c1 = 0 c0 = 0 units = km normamps = 229 
+New line.line_MCLD204_3952 bus1 = 547 bus2 = 546 length = 0.0634 phases = 3 r1 = 0.20059999 x1 = 0.40259999 r0 = 0.72000003 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3954 bus1 = 546 bus2 = 542 length = 0.0656 phases = 3 r1 = 0.2006 x1 = 0.40259999 r0 = 0.72000004 x0 = 1.407 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3953 bus1 = 2425 bus2 = 561 length = 0.027899999 phases = 3 r1 = 0.20059999 x1 = 0.40259999 r0 = 0.72000004 x0 = 1.407 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3955 bus1 = 561 bus2 = 560 length = 0.030999999 phases = 3 r1 = 0.20059999 x1 = 0.40260001 r0 = 0.72000005 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3956 bus1 = 542 bus2 = 553 length = 0.17649999 phases = 3 r1 = 0.20059999 x1 = 0.40259997 r0 = 0.71999998 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3957 bus1 = 560 bus2 = 559 length = 0.0273 phases = 3 r1 = 0.20059999 x1 = 0.40259999 r0 = 0.72000001 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3963 bus1 = 2390 bus2 = 556 length = 0.016000001 phases = 3 r1 = 0.20060001 x1 = 0.40259998 r0 = 0.72000003 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3969 bus1 = 556 bus2 = 2389 length = 0.1222 phases = 3 r1 = 0.2006 x1 = 0.40259999 r0 = 0.72000006 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3968 bus1 = 2390 bus2 = 2352 length = 0.1688 phases = 3 r1 = 1.6118 x1 = 0.48530001 r0 = 2.3877001 x0 = 1.9433 c1 = 0 c0 = 0 units = km normamps = 150 
+New line.line_MCLD204_3973 bus1 = 2352 bus2 = 2351 length = 0.161 phases = 3 r1 = 1.6118 x1 = 0.48530001 r0 = 2.3877001 x0 = 1.9433 c1 = 0 c0 = 0 units = km normamps = 150 
+New line.line_MCLD204_3970 bus1 = 2422 bus2 = 2392 length = 0.065800004 phases = 3 r1 = 1.6118 x1 = 0.48529999 r0 = 2.3877 x0 = 1.9433 c1 = 0 c0 = 0 units = km normamps = 150 
+New line.line_MCLD204_3976 bus1 = 2351 bus2 = 2350 length = 0.1104 phases = 3 r1 = 1.6117999 x1 = 0.48530001 r0 = 2.3877001 x0 = 1.9433 c1 = 0 c0 = 0 units = km normamps = 150 
+New line.line_MCLD204_3975 bus1 = 2420 bus2 = 2401 length = 0.035100002 phases = 3 r1 = 0.2006 x1 = 0.40259997 r0 = 0.72000003 x0 = 1.407 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3980 bus1 = 2401 bus2 = NA_4449 length = 0.062600002 phases = 3 r1 = 0.2006 x1 = 0.4026 r0 = 0.72000005 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3978 bus1 = 2396 bus2 = 2395 length = 0.068999998 phases = 3 r1 = 1.6117999 x1 = 0.48530002 r0 = 2.3877001 x0 = 1.9433 c1 = 0 c0 = 0 units = km normamps = 150 
+New line.line_MCLD204_3979 bus1 = 2396 bus2 = 2394 length = 0.23810001 phases = 3 r1 = 1.6118 x1 = 0.48530002 r0 = 2.3877002 x0 = 1.9433 c1 = 0 c0 = 0 units = km normamps = 150 
+New line.line_MCLD204_3984 bus1 = 442 bus2 = 441 length = 0.081600003 phases = 3 r1 = 0.3184 x1 = 0.42369999 r0 = 0.83780005 x0 = 1.4285999 c1 = 0 c0 = 0 units = km normamps = 425 
+New line.line_MCLD204_3993 bus1 = 441 bus2 = 437 length = 0.041099999 phases = 3 r1 = 0.31839999 x1 = 0.42370004 r0 = 0.83780006 x0 = 1.4285999 c1 = 0 c0 = 0 units = km normamps = 425 
+New line.line_MCLD204_3982 bus1 = 2350 bus2 = 2349 length = 0.0305 phases = 3 r1 = 1.6118 x1 = 0.48529999 r0 = 2.3876999 x0 = 1.9432999 c1 = 0 c0 = 0 units = km normamps = 150 
+New line.line_MCLD204_3991 bus1 = 2349 bus2 = 2347 length = 0.15440001 phases = 3 r1 = 1.6118001 x1 = 0.4853 r0 = 2.3877 x0 = 1.9432998 c1 = 0 c0 = 0 units = km normamps = 150 
+New line.line_MCLD204_3986 bus1 = NA_4449 bus2 = 2400 length = 0.1956 phases = 3 r1 = 0.2006 x1 = 0.40259999 r0 = 0.72 x0 = 1.407 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3996 bus1 = 2400 bus2 = NA_4391 length = 0.058899999 phases = 3 r1 = 0.20059999 x1 = 0.40260002 r0 = 0.72000004 x0 = 1.407 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3989 bus1 = 2278 bus2 = 2275 length = 0.0418 phases = 3 r1 = 0.2006 x1 = 0.40260001 r0 = 0.72000001 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3994 bus1 = 440 bus2 = 439 length = 0.065300003 phases = 3 r1 = 0.3184 x1 = 0.4237 r0 = 0.83780002 x0 = 1.4285999 c1 = 0 c0 = 0 units = km normamps = 425 
+New line.line_MCLD204_4001 bus1 = 563 bus2 = 436 length = 0.088 phases = 3 r1 = 0.20059999 x1 = 0.40259999 r0 = 0.72000005 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_4007 bus1 = 436 bus2 = 435 length = 0.1539 phases = 3 r1 = 0.20059999 x1 = 0.40260001 r0 = 0.72000001 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_4000 bus1 = 563 bus2 = 454 length = 0.0272 phases = 3 r1 = 0.73940006 x1 = 0.30479999 r0 = 2.2181999 x0 = 0.91439995 c1 = 0 c0 = 0 units = km normamps = 229 
+New line.line_MCLD204_4006 bus1 = 454 bus2 = 460 length = 0.095100001 phases = 3 r1 = 0.73940001 x1 = 0.30480001 r0 = 2.2182 x0 = 0.91439992 c1 = 0 c0 = 0 units = km normamps = 229 
+New line.line_MCLD204_3998 bus1 = 2344 bus2 = 2342 length = 0.037500001 phases = 3 r1 = 1.6117999 x1 = 0.48529999 r0 = 2.3877 x0 = 1.9433001 c1 = 0 c0 = 0 units = km normamps = 150 
+New line.line_MCLD204_4004 bus1 = 2342 bus2 = 2341 length = 0.1479 phases = 3 r1 = 1.6117999 x1 = 0.4853 r0 = 2.3877 x0 = 1.9433 c1 = 0 c0 = 0 units = km normamps = 150 
+New line.line_MCLD204_3999 bus1 = 2344 bus2 = 2343 length = 0.1295 phases = 3 r1 = 1.6117999 x1 = 0.4853 r0 = 2.3877002 x0 = 1.9433002 c1 = 0 c0 = 0 units = km normamps = 150 
+New line.line_MCLD204_4005 bus1 = 2343 bus2 = 2340 length = 0.1104 phases = 3 r1 = 1.0145 x1 = 0.46790002 r0 = 1.7625 x0 = 1.8902 c1 = 0 c0 = 0 units = km normamps = 201 
+New line.line_MCLD204_4013 bus1 = 435 bus2 = NA_4460 length = 0.0255 phases = 3 r1 = 0.20060001 x1 = 0.40259998 r0 = 0.72000001 x0 = 1.407 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_4009 bus1 = 2388 bus2 = 2355 length = 0.068300001 phases = 3 r1 = 1.6118 x1 = 0.48529999 r0 = 2.3877001 x0 = 1.9433 c1 = 0 c0 = 0 units = km normamps = 150 
+New line.line_MCLD204_4016 bus1 = 2355 bus2 = 2354 length = 0.089599997 phases = 3 r1 = 1.6118 x1 = 0.48529999 r0 = 2.3877001 x0 = 1.9433001 c1 = 0 c0 = 0 units = km normamps = 150 
+New line.line_MCLD204_4010 bus1 = 2416 bus2 = 564 length = 0.030999999 phases = 3 r1 = 0.31839998 x1 = 0.42370003 r0 = 0.83780001 x0 = 1.4285999 c1 = 0 c0 = 0 units = km normamps = 425 
+New line.line_MCLD204_4018 bus1 = 564 bus2 = 2415 length = 0.078199998 phases = 3 r1 = 0.3184 x1 = 0.42370002 r0 = 0.83780004 x0 = 1.4286 c1 = 0 c0 = 0 units = km normamps = 425 
+New line.line_MCLD204_4012 bus1 = 460 bus2 = 453 length = 0.017200001 phases = 3 r1 = 0.73940005 x1 = 0.3048 r0 = 2.2182 x0 = 0.91439995 c1 = 0 c0 = 0 units = km normamps = 229 
+New line.line_MCLD204_4014 bus1 = 2386 bus2 = 2384 length = 0.031399999 phases = 3 r1 = 0.3184 x1 = 0.42370001 r0 = 0.83780004 x0 = 1.4286 c1 = 0 c0 = 0 units = km normamps = 425 
+New line.line_MCLD204_4021 bus1 = 2384 bus2 = 2382 length = 0.0284 phases = 3 r1 = 0.31840001 x1 = 0.4237 r0 = 0.83780001 x0 = 1.4285999 c1 = 0 c0 = 0 units = km normamps = 425 
+New line.line_MCLD204_4025 bus1 = 2406 bus2 = 2404 length = 0.029200001 phases = 3 r1 = 1.6118 x1 = 0.48530001 r0 = 2.3877001 x0 = 1.9433001 c1 = 0 c0 = 0 units = km normamps = 150 
+New line.line_MCLD204_4030 bus1 = 2381 bus2 = 2379 length = 0.043900002 phases = 3 r1 = 0.3184 x1 = 0.4237 r0 = 0.83780004 x0 = 1.4285999 c1 = 0 c0 = 0 units = km normamps = 425 
+New line.line_MCLD204_4033 bus1 = 2379 bus2 = 2378 length = 0.111 phases = 3 r1 = 0.31839997 x1 = 0.42370001 r0 = 0.83780009 x0 = 1.4285999 c1 = 0 c0 = 0 units = km normamps = 425 
+New line.line_MCLD204_4029 bus1 = 2382 bus2 = 2368 length = 0.038899999 phases = 3 r1 = 1.0145 x1 = 0.4679 r0 = 1.7625001 x0 = 1.8902 c1 = 0 c0 = 0 units = km normamps = 201 
+New line.line_MCLD204_4028 bus1 = 2362 bus2 = 2359 length = 0.0186 phases = 3 r1 = 1.6117999 x1 = 0.48530005 r0 = 2.3877002 x0 = 1.9433001 c1 = 0 c0 = 0 units = km normamps = 150 
+New line.line_MCLD204_4032 bus1 = 2381 bus2 = 2376 length = 0.047800001 phases = 3 r1 = 1.6118 x1 = 0.48530001 r0 = 2.3877002 x0 = 1.9433 c1 = 0 c0 = 0 units = km normamps = 150 
+New line.line_MCLD204_4035 bus1 = 2376 bus2 = 2375 length = 0.15539999 phases = 3 r1 = 1.6118 x1 = 0.48530001 r0 = 2.3877 x0 = 1.9433001 c1 = 0 c0 = 0 units = km normamps = 150 
+New line.line_MCLD204_4034 bus1 = 2366 bus2 = 2364 length = 0.022 phases = 3 r1 = 1.6118001 x1 = 0.48530001 r0 = 2.3877001 x0 = 1.9433 c1 = 0 c0 = 0 units = km normamps = 150 
+New line.line_MCLD204_4036 bus1 = 2375 bus2 = 2374 length = 0.066399999 phases = 3 r1 = 1.6117999 x1 = 0.48530003 r0 = 2.3877002 x0 = 1.9433 c1 = 0 c0 = 0 units = km normamps = 150 
+New line.line_MCLD204_4037 bus1 = 2374 bus2 = 2371 length = 0.1441 phases = 3 r1 = 0.73940006 x1 = 0.3048 r0 = 2.2181999 x0 = 0.91439999 c1 = 0 c0 = 0 units = km normamps = 229 
+New line.line_MCLD204_4038 bus1 = 2374 bus2 = 2372 length = 0.1671 phases = 3 r1 = 1.6118001 x1 = 0.48530003 r0 = 2.3877 x0 = 1.9433 c1 = 0 c0 = 0 units = km normamps = 150 
+New line.line_MCLD204_3805 bus1 = 516 bus2 = 2488 length = 0.3344 phases = 3 r1 = 0.2006 x1 = 0.40260001 r0 = 0.72000001 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3809 bus1 = 2488 bus2 = 2486 length = 0.072999999 phases = 3 r1 = 0.2006 x1 = 0.40259998 r0 = 0.72000002 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3810 bus1 = 530 bus2 = 498 length = 0.2089 phases = 3 r1 = 0.24690001 x1 = 0.261 r0 = 0.74070005 x0 = 0.78299997 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3830 bus1 = 2479 bus2 = 451 length = 0.062399998 phases = 3 r1 = 0.20059999 x1 = 0.40259999 r0 = 0.72000004 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3841 bus1 = 531 bus2 = 509 length = 0.086900003 phases = 3 r1 = 0.24690002 x1 = 0.261 r0 = 0.74069999 x0 = 0.78300002 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3835 bus1 = 451 bus2 = 2304 length = 0.0392 phases = 3 r1 = 0.20059999 x1 = 0.4026 r0 = 0.71999999 x0 = 1.407 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3845 bus1 = 2304 bus2 = 2301 length = 0.0112 phases = 3 r1 = 0.24690001 x1 = 0.261 r0 = 0.74070002 x0 = 0.78300001 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3851 bus1 = 2301 bus2 = 2478 length = 0.0088999998 phases = 3 r1 = 0.2469 x1 = 0.26100001 r0 = 0.74070003 x0 = 0.783 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3866 bus1 = 534 bus2 = 528 length = 0.087099999 phases = 3 r1 = 0.24690002 x1 = 0.261 r0 = 0.74070002 x0 = 0.783 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3884 bus1 = 2296 bus2 = 2475 length = 0.057300001 phases = 3 r1 = 0.24690001 x1 = 0.261 r0 = 0.74070001 x0 = 0.78299998 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3889 bus1 = 2475 bus2 = 2471 length = 0.1016 phases = 3 r1 = 0.24690001 x1 = 0.26100001 r0 = 0.74070001 x0 = 0.783 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3887 bus1 = 2296 bus2 = 2474 length = 0.016799999 phases = 3 r1 = 0.72602501 x1 = 0.29558571 r0 = 2.1780749 x0 = 0.88675709 c1 = 0 c0 = 0 units = km normamps = 226.08333 
+New line.line_MCLD204_3890 bus1 = 2474 bus2 = 2285 length = 0.0133 phases = 3 r1 = 0.73940007 x1 = 0.30480002 r0 = 2.2181999 x0 = 0.91439998 c1 = 0 c0 = 0 units = km normamps = 229 
+New line.line_MCLD204_3891 bus1 = 2471 bus2 = 2467 length = 0.0396 phases = 3 r1 = 0.20059999 x1 = 0.40259997 r0 = 0.72000002 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3899 bus1 = 2461 bus2 = 2458 length = 0.1786 phases = 3 r1 = 0.20060001 x1 = 0.40259999 r0 = 0.72000002 x0 = 1.407 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3910 bus1 = 2331 bus2 = 2328 length = 0.1652 phases = 3 r1 = 0.73940005 x1 = 0.30480002 r0 = 2.2182 x0 = 0.91439996 c1 = 0 c0 = 0 units = km normamps = 229 
+New line.line_MCLD204_3914 bus1 = 2451 bus2 = 2449 length = 0.0403 phases = 3 r1 = 0.24690002 x1 = 0.261 r0 = 0.74069998 x0 = 0.78300003 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3917 bus1 = 2449 bus2 = 2443 length = 0.0085000005 phases = 3 r1 = 1.0145001 x1 = 0.46789999 r0 = 1.7625001 x0 = 1.8901999 c1 = 0 c0 = 0 units = km normamps = 201 
+New line.line_MCLD204_3925 bus1 = 2439 bus2 = 2437 length = 0.052999999 phases = 3 r1 = 0.24690001 x1 = 0.26100001 r0 = 0.74070002 x0 = 0.78300003 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3936 bus1 = 2312 bus2 = 2294 length = 0.0559 phases = 3 r1 = 0.24690001 x1 = 0.26100001 r0 = 0.74070002 x0 = 0.78299997 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3939 bus1 = 2294 bus2 = 2434 length = 0.037 phases = 3 r1 = 0.24690001 x1 = 0.261 r0 = 0.74070001 x0 = 0.78299996 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3948 bus1 = 2427 bus2 = 547 length = 0.2086 phases = 3 r1 = 0.20059999 x1 = 0.40259999 r0 = 0.72000005 x0 = 1.407 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3949 bus1 = 2427 bus2 = 2425 length = 0.038800001 phases = 3 r1 = 0.20060001 x1 = 0.40259999 r0 = 0.72000006 x0 = 1.407 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3958 bus1 = 553 bus2 = 551 length = 0.017200001 phases = 3 r1 = 0.2006 x1 = 0.40259999 r0 = 0.72000005 x0 = 1.407 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3959 bus1 = 559 bus2 = 2390 length = 0.1139 phases = 3 r1 = 0.2006 x1 = 0.40259996 r0 = 0.72000002 x0 = 1.407 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3960 bus1 = 551 bus2 = 2422 length = 0.013 phases = 3 r1 = 0.20059999 x1 = 0.40259998 r0 = 0.72 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3961 bus1 = 551 bus2 = 2423 length = 0.1041 phases = 3 r1 = 0.2006 x1 = 0.40259998 r0 = 0.71999999 x0 = 1.4069998 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3964 bus1 = 2423 bus2 = 2420 length = 0.0405 phases = 3 r1 = 0.2006 x1 = 0.40260001 r0 = 0.72 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3971 bus1 = 2423 bus2 = 2396 length = 0.1119 phases = 3 r1 = 1.5685637 x1 = 0.48404048 r0 = 2.3424443 x0 = 1.9394563 c1 = 0 c0 = 0 units = km normamps = 153.69169 
+New line.line_MCLD204_3977 bus1 = 2389 bus2 = 442 length = 0.0177 phases = 3 r1 = 0.20059999 x1 = 0.4026 r0 = 0.72 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3972 bus1 = 550 bus2 = 2419 length = 0.1487 phases = 3 r1 = 0.30160535 x1 = 0.4206918 r0 = 0.82100542 x0 = 1.4255205 c1 = 0 c0 = 0 units = km normamps = 446.52791 
+New line.line_MCLD204_3981 bus1 = 2419 bus2 = 2278 length = 0.073100001 phases = 3 r1 = 0.31840001 x1 = 0.42370003 r0 = 0.83780005 x0 = 1.4286 c1 = 0 c0 = 0 units = km normamps = 425 
+New line.line_MCLD204_3990 bus1 = 2350 bus2 = 2344 length = 0.1811 phases = 3 r1 = 1.6118 x1 = 0.48530003 r0 = 2.3877 x0 = 1.9433 c1 = 0 c0 = 0 units = km normamps = 150 
+New line.line_MCLD204_3983 bus1 = 442 bus2 = 563 length = 0.082199998 phases = 3 r1 = 0.2006 x1 = 0.40259998 r0 = 0.72000002 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3987 bus1 = 2278 bus2 = 2276 length = 0.029200001 phases = 3 r1 = 0.31839999 x1 = 0.42369999 r0 = 0.83780001 x0 = 1.4285999 c1 = 0 c0 = 0 units = km normamps = 425 
+New line.line_MCLD204_4003 bus1 = 2276 bus2 = 2416 length = 0.2976 phases = 3 r1 = 0.31839999 x1 = 0.42370002 r0 = 0.83780003 x0 = 1.4286 c1 = 0 c0 = 0 units = km normamps = 425 
+New line.line_MCLD204_4008 bus1 = 437 bus2 = 2386 length = 0.084399998 phases = 3 r1 = 0.3184 x1 = 0.42370003 r0 = 0.83780003 x0 = 1.4286 c1 = 0 c0 = 0 units = km normamps = 425 
+New line.line_MCLD204_3995 bus1 = 440 bus2 = 2388 length = 0.0126 phases = 3 r1 = 1.0145 x1 = 0.46790002 r0 = 1.7625001 x0 = 1.8902 c1 = 0 c0 = 0 units = km normamps = 201 
+New line.line_MCLD204_4017 bus1 = 2416 bus2 = 2406 length = 0.071099997 phases = 3 r1 = 1.0145 x1 = 0.46789999 r0 = 1.7625 x0 = 1.8902 c1 = 0 c0 = 0 units = km normamps = 201 
+New line.line_MCLD204_4019 bus1 = 460 bus2 = 457 length = 0.0114 phases = 3 r1 = 0.51470001 x1 = 0.15000001 r0 = 1.5441001 x0 = 0.44999997 c1 = 0 c0 = 0 units = km normamps = 180 
+New line.line_MCLD204_4015 bus1 = 2386 bus2 = 2383 length = 0.0049999999 phases = 3 r1 = 1.6118 x1 = 0.4853 r0 = 2.3877001 x0 = 1.9432999 c1 = 0 c0 = 0 units = km normamps = 150 
+New line.line_MCLD204_4020 bus1 = 2386 bus2 = 2362 length = 0.0722 phases = 3 r1 = 1.6118 x1 = 0.48529999 r0 = 2.3877002 x0 = 1.9433 c1 = 0 c0 = 0 units = km normamps = 150 
+New line.line_MCLD204_4024 bus1 = 2383 bus2 = 2366 length = 0.021400001 phases = 3 r1 = 1.6117999 x1 = 0.4853 r0 = 2.3877 x0 = 1.9433 c1 = 0 c0 = 0 units = km normamps = 150 
+New line.line_MCLD204_4022 bus1 = 2415 bus2 = 2414 length = 0.030999999 phases = 3 r1 = 0.31839998 x1 = 0.42370003 r0 = 0.83780001 x0 = 1.4285999 c1 = 0 c0 = 0 units = km normamps = 425 
+New line.line_MCLD204_4026 bus1 = 2415 bus2 = 2408 length = 0.0122 phases = 3 r1 = 0.82200006 x1 = 0.146 r0 = 2.466 x0 = 0.43799998 c1 = 0 c0 = 0 units = km normamps = 175 
+New line.line_MCLD204_4023 bus1 = 2382 bus2 = 2381 length = 0.1292 phases = 3 r1 = 0.31839998 x1 = 0.4237 r0 = 0.83780004 x0 = 1.4286 c1 = 0 c0 = 0 units = km normamps = 425 
+New line.line_MCLD204_4027 bus1 = 2414 bus2 = NA_4400 length = 0.091200002 phases = 3 r1 = 0.3184 x1 = 0.42370001 r0 = 0.83780003 x0 = 1.4285999 c1 = 0 c0 = 0 units = km normamps = 425 
+New line.line_MCLD204_4031 bus1 = 2414 bus2 = 2411 length = 0.013 phases = 3 r1 = 1.0145001 x1 = 0.4679 r0 = 1.7625 x0 = 1.8902001 c1 = 0 c0 = 0 units = km normamps = 201 
+New line.line_MCLD204_3924 bus1 = 2439 bus2 = NA_4433 length = 0.096000001 phases = 3 r1 = 0.24690001 x1 = 0.26100001 r0 = 0.74069997 x0 = 0.783 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3938 bus1 = 2294 bus2 = NA_4436 length = 0.057300001 phases = 3 r1 = 0.5147 x1 = 0.15000002 r0 = 1.5441 x0 = 0.44999998 c1 = 0 c0 = 0 units = km normamps = 180 
+New line.line_MCLD204_3802 bus1 = 517 bus2 = 516 length = 0.038199998 phases = 3 r1 = 0.2006 x1 = 0.4026 r0 = 0.72000006 x0 = 1.407 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3813 bus1 = 498 bus2 = 496 length = 0.046100002 phases = 3 r1 = 0.24690002 x1 = 0.26100001 r0 = 0.74069999 x0 = 0.78299995 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3816 bus1 = 496 bus2 = 494 length = 0.041999999 phases = 3 r1 = 0.24690001 x1 = 0.261 r0 = 0.74069998 x0 = 0.78300001 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3822 bus1 = 494 bus2 = 491 length = 0.0634 phases = 3 r1 = 0.24690002 x1 = 0.261 r0 = 0.74070002 x0 = 0.78300002 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3826 bus1 = 491 bus2 = 487 length = 0.052200001 phases = 3 r1 = 0.2469 x1 = 0.261 r0 = 0.7407 x0 = 0.78300001 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3828 bus1 = 487 bus2 = 484 length = 0.041999999 phases = 3 r1 = 0.24690001 x1 = 0.261 r0 = 0.74069998 x0 = 0.78300001 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3833 bus1 = 484 bus2 = 480 length = 0.063199997 phases = 3 r1 = 0.24690002 x1 = 0.261 r0 = 0.74069996 x0 = 0.78300002 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3839 bus1 = 480 bus2 = 476 length = 0.052000001 phases = 3 r1 = 0.2469 x1 = 0.26100002 r0 = 0.74070002 x0 = 0.78299995 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3843 bus1 = 476 bus2 = 473 length = 0.050799999 phases = 3 r1 = 0.24690001 x1 = 0.26100001 r0 = 0.74070001 x0 = 0.783 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3847 bus1 = 509 bus2 = 506 length = 0.059 phases = 3 r1 = 0.24690001 x1 = 0.26100002 r0 = 0.74070001 x0 = 0.78300003 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3850 bus1 = 473 bus2 = 469 length = 0.0418 phases = 3 r1 = 0.24690001 x1 = 0.26100002 r0 = 0.7407 x0 = 0.78299994 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3854 bus1 = 506 bus2 = 504 length = 0.069899999 phases = 3 r1 = 0.24690002 x1 = 0.261 r0 = 0.74070001 x0 = 0.78299999 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3859 bus1 = 469 bus2 = 465 length = 0.063199997 phases = 3 r1 = 0.24690002 x1 = 0.261 r0 = 0.74069996 x0 = 0.78300002 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3869 bus1 = 528 bus2 = 527 length = 0.0779 phases = 3 r1 = 0.24690001 x1 = 0.26100001 r0 = 0.74070002 x0 = 0.78300002 c1 = 0 c0 = 0 units = km normamps = 456 
+New line.line_MCLD204_3892 bus1 = 2467 bus2 = NA_4422 length = 0.0546 phases = 3 r1 = 0.20059999 x1 = 0.40259999 r0 = 0.72000001 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3894 bus1 = 2467 bus2 = NA_4423 length = 0.0288 phases = 3 r1 = 0.2006 x1 = 0.40259998 r0 = 0.72000001 x0 = 1.407 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3916 bus1 = 2449 bus2 = NA_4429 length = 0.067199998 phases = 3 r1 = 1.0145 x1 = 0.46790002 r0 = 1.7625001 x0 = 1.8902 c1 = 0 c0 = 0 units = km normamps = 201 
+New line.line_MCLD204_3962 bus1 = 551 bus2 = 550 length = 0.0175 phases = 3 r1 = 0.2006 x1 = 0.40259999 r0 = 0.72000007 x0 = 1.407 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3965 bus1 = 550 bus2 = 420 length = 0.0071 phases = 3 r1 = 0.2006 x1 = 0.40259999 r0 = 0.72000003 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3967 bus1 = 550 bus2 = 427 length = 0.065899998 phases = 3 r1 = 0.2006 x1 = 0.40259999 r0 = 0.72000003 x0 = 1.4069999 c1 = 0 c0 = 0 units = km normamps = 576 
+New line.line_MCLD204_3985 bus1 = 442 bus2 = 440 length = 0.055399999 phases = 3 r1 = 0.31839999 x1 = 0.42369999 r0 = 0.83780008 x0 = 1.4286 c1 = 0 c0 = 0 units = km normamps = 425 
+!New line.line_MCLD204_3988 bus1 = 2278 bus2 = NA_4449 length = 0.0175 phases = 3 r1 = 0.2006 x1 = 0.40259999 r0 = 0.72000007 x0 = 1.407 c1 = 0 c0 = 0 units = km normamps = 576 
+
+// Interconnection lines with other feeders
+
+New line.line_MCLD204_3924x bus1 = 2126x_MCLD202  bus2 = NA_4433 length = 0.001 phases = 3 r1 = 0.6375 x1 = 0.45039999 r0 = 1.3434 x0 = 1.6344001 c1 = 0 c0 = 0 units = km normamps = 272  !202
+New line.line_MCLD204_3938x bus1 = 2126x_MCLD202  bus2 = NA_4436 length = 0.001 phases = 3 r1 = 0.6375 x1 = 0.45039999 r0 = 1.3434 x0 = 1.6344001 c1 = 0 c0 = 0 units = km normamps = 272  !202
+New line.line_MCLD204_4027x bus1 = 2126x_MCLD202  bus2 = NA_4400 length = 0.001 phases = 3 r1 = 0.6375 x1 = 0.45039999 r0 = 1.3434 x0 = 1.6344001 c1 = 0 c0 = 0 units = km normamps = 272  !202
+New line.line_MCLD204_3996x bus1 = 2126x_MCLD202  bus2 = NA_4391 length = 0.001 phases = 3 r1 = 0.6375 x1 = 0.45039999 r0 = 1.3434 x0 = 1.6344001 c1 = 0 c0 = 0 units = km normamps = 272  !202
+New line.line_MCLD204_3894x bus1 = 2126x_MCLD205  bus2 = NA_4423 length = 0.001 phases = 3 r1 = 0.6375 x1 = 0.45039999 r0 = 1.3434 x0 = 1.6344001 c1 = 0 c0 = 0 units = km normamps = 272  !205
+New line.line_MCLD204_3916x bus1 = 2126x_MCLD205  bus2 = NA_4429 length = 0.001 phases = 3 r1 = 0.6375 x1 = 0.45039999 r0 = 1.3434 x0 = 1.6344001 c1 = 0 c0 = 0 units = km normamps = 272  !205
+New line.line_MCLD204_4013x bus1 = 2126x_MCLD205  bus2 = NA_4460 length = 0.001 phases = 3 r1 = 0.6375 x1 = 0.45039999 r0 = 1.3434 x0 = 1.6344001 c1 = 0 c0 = 0 units = km normamps = 272  !205
+New line.line_MCLD204_3892x bus1 = 838x_MCLD208   bus2 = NA_4422 length = 0.001 phases = 3 r1 = 0.6375 x1 = 0.45039999 r0 = 1.3434 x0 = 1.6344001 c1 = 0 c0 = 0 units = km normamps = 272  !208
+
+
+New line.line_MCLD202_3496 bus1 = 2126 bus2 = 2126x_MCLD202 length = 0.001 phases = 3 r1 = 0.6375 x1 = 0.45039999 r0 = 1.3434 x0 = 1.6344001 c1 = 0 c0 = 0 units = km normamps = 272  !202
+New line.line_MCLD205_2549 bus1 = 2126 bus2 = 2126x_MCLD205 length = 0.001 phases = 3 r1 = 0.6375 x1 = 0.45039999 r0 = 1.3434 x0 = 1.6344001 c1 = 0 c0 = 0 units = km normamps = 272  !205
+New line.line_MCLD208_3056 bus1 = 838  bus2 = 838x_MCLD208  length = 0.001 phases = 3 r1 = 0.6375 x1 = 0.45039999 r0 = 1.3434 x0 = 1.6344001 c1 = 0 c0 = 0 units = km normamps = 272  !208
+
+
+//------------------------------------//
+//Transformers
+//--------------------------------------------//
+New transformer.trafo_5125 phases = 3 wdg = 1 bus = 2261 conn = delta kV = 88 kVA = 25000 wdg = 2 bus = 838 conn = wye kV = 13.8 kVA = 25000 %loadloss = 0.1 xhl = 2
+New transformer.trafo_5124 phases = 3 wdg = 1 bus = 2261 conn = delta kV = 88 kVA = 25000 wdg = 2 bus = 2126 conn = wye kV = 13.8 kVA = 25000 %loadloss = 0.1 xhl = 2
+New transformer.trafo_5011 phases = 3 wdg = 1 bus = 446 conn = wye kV = 13.8 kVA = 4.9999999 wdg = 2 bus = 296 conn = wye kV = 0.22 kVA = 4.9999999 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5012 phases = 3 wdg = 1 bus = 518 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 417 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5013 phases = 3 wdg = 1 bus = 515 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 408 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5014 phases = 3 wdg = 1 bus = 513 conn = wye kV = 13.8 kVA = 4.9999999 wdg = 2 bus = 329 conn = wye kV = 0.22 kVA = 4.9999999 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5015 phases = 3 wdg = 1 bus = 512 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 313 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5016 phases = 3 wdg = 1 bus = 2483 conn = delta kV = 13.8 kVA = 29.999999 wdg = 2 bus = 285 conn = wye kV = 0.22 kVA = 29.999999 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5017 phases = 3 wdg = 1 bus = 497 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 341 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5018 phases = 3 wdg = 1 bus = 2482 conn = wye kV = 13.8 kVA = 15 wdg = 2 bus = 356 conn = wye kV = 0.22 kVA = 15 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5019 phases = 3 wdg = 1 bus = 493 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 346 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5020 phases = 3 wdg = 1 bus = 492 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 316 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5021 phases = 3 wdg = 1 bus = 490 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 338 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5022 phases = 3 wdg = 1 bus = 489 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 354 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5023 phases = 3 wdg = 1 bus = 486 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 353 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5024 phases = 3 wdg = 1 bus = 485 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 322 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5025 phases = 3 wdg = 1 bus = 482 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 340 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5026 phases = 3 wdg = 1 bus = 481 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 359 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5027 phases = 3 wdg = 1 bus = 479 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 324 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5028 phases = 3 wdg = 1 bus = 478 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 315 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5029 phases = 3 wdg = 1 bus = 450 conn = delta kV = 13.8 kVA = 29.999999 wdg = 2 bus = 375 conn = wye kV = 0.22 kVA = 29.999999 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5030 phases = 3 wdg = 1 bus = 474 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 361 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5031 phases = 3 wdg = 1 bus = 475 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 363 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5032 phases = 3 wdg = 1 bus = 470 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 335 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5033 phases = 3 wdg = 1 bus = 472 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 325 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5034 phases = 3 wdg = 1 bus = 505 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 345 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5035 phases = 3 wdg = 1 bus = 468 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 343 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5036 phases = 3 wdg = 1 bus = 467 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 326 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5037 phases = 3 wdg = 1 bus = 503 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 357 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5038 phases = 3 wdg = 1 bus = 464 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 347 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5039 phases = 3 wdg = 1 bus = 463 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 362 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5045 phases = 3 wdg = 1 bus = 2281 conn = delta kV = 13.8 kVA = 150.00001 wdg = 2 bus = 349 conn = wye kV = 0.22 kVA = 150.00001 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5040 phases = 3 wdg = 1 bus = 501 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 337 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5041 phases = 3 wdg = 1 bus = 502 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 331 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5042 phases = 3 wdg = 1 bus = 462 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 339 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5043 phases = 3 wdg = 1 bus = 461 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 334 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5044 phases = 3 wdg = 1 bus = 2268 conn = wye kV = 13.8 kVA = 4.9999999 wdg = 2 bus = 295 conn = wye kV = 0.22 kVA = 4.9999999 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5046 phases = 3 wdg = 1 bus = 526 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 351 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5047 phases = 3 wdg = 1 bus = 2265 conn = delta kV = 13.8 kVA = 750 wdg = 2 bus = 400 conn = wye kV = 0.22 kVA = 750 %loadloss = 1.5 xhl = 5.0000001
+New transformer.trafo_5048 phases = 3 wdg = 1 bus = 525 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 358 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5049 phases = 3 wdg = 1 bus = 524 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 352 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5053 phases = 3 wdg = 1 bus = 2297 conn = delta kV = 13.8 kVA = 15 wdg = 2 bus = 376 conn = wye kV = 0.22 kVA = 15 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5050 phases = 3 wdg = 1 bus = 522 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 320 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5051 phases = 3 wdg = 1 bus = 523 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 314 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5052 phases = 3 wdg = 1 bus = 2263 conn = delta kV = 13.8 kVA = 75.000003 wdg = 2 bus = 319 conn = wye kV = 0.22 kVA = 75.000003 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5055 phases = 3 wdg = 1 bus = 2466 conn = delta kV = 13.8 kVA = 112 wdg = 2 bus = 369 conn = wye kV = 0.22 kVA = 112 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5056 phases = 3 wdg = 1 bus = 2283 conn = delta kV = 13.8 kVA = 750 wdg = 2 bus = 330 conn = wye kV = 0.22 kVA = 750 %loadloss = 1.5 xhl = 5.0000001
+New transformer.trafo_5057 phases = 3 wdg = 1 bus = 2463 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 402 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5058 phases = 3 wdg = 1 bus = 2462 conn = delta kV = 13.8 kVA = 75.000003 wdg = 2 bus = 391 conn = wye kV = 0.22 kVA = 75.000003 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5059 phases = 3 wdg = 1 bus = 2456 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 283 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5060 phases = 3 wdg = 1 bus = 2321 conn = delta kV = 13.8 kVA = 29.999999 wdg = 2 bus = 309 conn = wye kV = 0.22 kVA = 29.999999 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5061 phases = 3 wdg = 1 bus = 2454 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 396 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5062 phases = 3 wdg = 1 bus = 2332 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 398 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5063 phases = 3 wdg = 1 bus = 2453 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 284 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5065 phases = 3 wdg = 1 bus = 2452 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 390 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5064 phases = 3 wdg = 1 bus = 2330 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 370 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5066 phases = 3 wdg = 1 bus = 2327 conn = wye kV = 13.8 kVA = 15 wdg = 2 bus = 312 conn = wye kV = 0.22 kVA = 15 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5067 phases = 3 wdg = 1 bus = 2326 conn = wye kV = 13.8 kVA = 15 wdg = 2 bus = 373 conn = wye kV = 0.22 kVA = 15 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5068 phases = 3 wdg = 1 bus = 2444 conn = delta kV = 13.8 kVA = 75.000003 wdg = 2 bus = 379 conn = wye kV = 0.22 kVA = 75.000003 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5069 phases = 3 wdg = 1 bus = 2338 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 405 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5070 phases = 3 wdg = 1 bus = 2440 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 403 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5071 phases = 3 wdg = 1 bus = 2337 conn = delta kV = 13.8 kVA = 29.999999 wdg = 2 bus = 287 conn = wye kV = 0.22 kVA = 29.999999 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5072 phases = 3 wdg = 1 bus = 568 conn = delta kV = 13.8 kVA = 75.000003 wdg = 2 bus = 371 conn = wye kV = 0.22 kVA = 75.000003 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5073 phases = 3 wdg = 1 bus = 2319 conn = wye kV = 13.8 kVA = 15 wdg = 2 bus = 342 conn = wye kV = 0.22 kVA = 15 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5074 phases = 3 wdg = 1 bus = 2318 conn = delta kV = 13.8 kVA = 29.999999 wdg = 2 bus = 367 conn = wye kV = 0.22 kVA = 29.999999 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5075 phases = 3 wdg = 1 bus = 565 conn = delta kV = 13.8 kVA = 29.999999 wdg = 2 bus = 392 conn = wye kV = 0.22 kVA = 29.999999 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5076 phases = 3 wdg = 1 bus = 2317 conn = delta kV = 13.8 kVA = 112 wdg = 2 bus = 395 conn = wye kV = 0.22 kVA = 112 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5077 phases = 3 wdg = 1 bus = 2316 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 394 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5078 phases = 3 wdg = 1 bus = 2314 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 389 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5079 phases = 3 wdg = 1 bus = 2290 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 297 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5080 phases = 3 wdg = 1 bus = 2289 conn = delta kV = 13.8 kVA = 75.000003 wdg = 2 bus = 378 conn = wye kV = 0.22 kVA = 75.000003 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5081 phases = 3 wdg = 1 bus = 2431 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 293 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5082 phases = 3 wdg = 1 bus = 2430 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 380 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5083 phases = 3 wdg = 1 bus = 2429 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 289 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5084 phases = 3 wdg = 1 bus = 544 conn = delta kV = 13.8 kVA = 75.000003 wdg = 2 bus = 414 conn = wye kV = 0.22 kVA = 75.000003 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5085 phases = 3 wdg = 1 bus = 546 conn = delta kV = 13.8 kVA = 150.00001 wdg = 2 bus = 304 conn = wye kV = 0.22 kVA = 150.00001 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5086 phases = 3 wdg = 1 bus = 561 conn = delta kV = 13.8 kVA = 112 wdg = 2 bus = 393 conn = wye kV = 0.22 kVA = 112 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5087 phases = 3 wdg = 1 bus = 542 conn = delta kV = 13.8 kVA = 150.00001 wdg = 2 bus = 290 conn = wye kV = 0.22 kVA = 150.00001 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5088 phases = 3 wdg = 1 bus = 560 conn = delta kV = 13.8 kVA = 112 wdg = 2 bus = 406 conn = wye kV = 0.22 kVA = 112 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5089 phases = 3 wdg = 1 bus = 556 conn = delta kV = 13.8 kVA = 15 wdg = 2 bus = 416 conn = wye kV = 0.22 kVA = 15 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5090 phases = 3 wdg = 1 bus = 2352 conn = delta kV = 13.8 kVA = 75.000003 wdg = 2 bus = 382 conn = wye kV = 0.22 kVA = 75.000003 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5091 phases = 3 wdg = 1 bus = 2392 conn = delta kV = 13.8 kVA = 112 wdg = 2 bus = 302 conn = wye kV = 0.22 kVA = 112 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5092 phases = 3 wdg = 1 bus = 2351 conn = delta kV = 13.8 kVA = 75.000003 wdg = 2 bus = 381 conn = wye kV = 0.22 kVA = 75.000003 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5093 phases = 3 wdg = 1 bus = 2401 conn = delta kV = 13.8 kVA = 75.000003 wdg = 2 bus = 292 conn = wye kV = 0.22 kVA = 75.000003 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5094 phases = 3 wdg = 1 bus = 2395 conn = delta kV = 13.8 kVA = 112 wdg = 2 bus = 303 conn = wye kV = 0.22 kVA = 112 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5095 phases = 3 wdg = 1 bus = 2394 conn = delta kV = 13.8 kVA = 75.000003 wdg = 2 bus = 305 conn = wye kV = 0.22 kVA = 75.000003 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5097 phases = 3 wdg = 1 bus = 441 conn = delta kV = 13.8 kVA = 150.00001 wdg = 2 bus = 383 conn = wye kV = 0.22 kVA = 150.00001 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5096 phases = 3 wdg = 1 bus = 2349 conn = delta kV = 13.8 kVA = 112 wdg = 2 bus = 294 conn = wye kV = 0.22 kVA = 112 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5098 phases = 3 wdg = 1 bus = 2400 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 374 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5099 phases = 3 wdg = 1 bus = 2275 conn = delta kV = 13.8 kVA = 75.000003 wdg = 2 bus = 317 conn = wye kV = 0.22 kVA = 75.000003 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5101 phases = 3 wdg = 1 bus = 439 conn = delta kV = 13.8 kVA = 112 wdg = 2 bus = 413 conn = wye kV = 0.22 kVA = 112 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5100 phases = 3 wdg = 1 bus = 2347 conn = delta kV = 13.8 kVA = 75.000003 wdg = 2 bus = 300 conn = wye kV = 0.22 kVA = 75.000003 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5105 phases = 3 wdg = 1 bus = 436 conn = delta kV = 13.8 kVA = 75.000003 wdg = 2 bus = 418 conn = wye kV = 0.22 kVA = 75.000003 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5104 phases = 3 wdg = 1 bus = 454 conn = delta kV = 13.8 kVA = 112 wdg = 2 bus = 368 conn = wye kV = 0.22 kVA = 112 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5102 phases = 3 wdg = 1 bus = 2342 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 386 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5103 phases = 3 wdg = 1 bus = 2343 conn = delta kV = 13.8 kVA = 112 wdg = 2 bus = 306 conn = wye kV = 0.22 kVA = 112 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5108 phases = 3 wdg = 1 bus = 435 conn = delta kV = 13.8 kVA = 29.999999 wdg = 2 bus = 407 conn = wye kV = 0.22 kVA = 29.999999 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5109 phases = 3 wdg = 1 bus = 2355 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 301 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5106 phases = 3 wdg = 1 bus = 2341 conn = delta kV = 13.8 kVA = 112 wdg = 2 bus = 419 conn = wye kV = 0.22 kVA = 112 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5107 phases = 3 wdg = 1 bus = 2340 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 401 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5110 phases = 3 wdg = 1 bus = 564 conn = delta kV = 13.8 kVA = 75.000003 wdg = 2 bus = 291 conn = wye kV = 0.22 kVA = 75.000003 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5111 phases = 3 wdg = 1 bus = 453 conn = delta kV = 13.8 kVA = 75.000003 wdg = 2 bus = 318 conn = wye kV = 0.22 kVA = 75.000003 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5112 phases = 3 wdg = 1 bus = 2384 conn = delta kV = 13.8 kVA = 75.000003 wdg = 2 bus = 307 conn = wye kV = 0.22 kVA = 75.000003 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5113 phases = 3 wdg = 1 bus = 2354 conn = delta kV = 13.8 kVA = 75.000003 wdg = 2 bus = 412 conn = wye kV = 0.22 kVA = 75.000003 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5114 phases = 3 wdg = 1 bus = 2404 conn = delta kV = 13.8 kVA = 750 wdg = 2 bus = 350 conn = wye kV = 0.22 kVA = 750 %loadloss = 1.5 xhl = 5.0000001
+New transformer.trafo_5118 phases = 3 wdg = 1 bus = 2379 conn = delta kV = 13.8 kVA = 75.000003 wdg = 2 bus = 415 conn = wye kV = 0.22 kVA = 75.000003 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5117 phases = 3 wdg = 1 bus = 2368 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 308 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5115 phases = 3 wdg = 1 bus = 2359 conn = delta kV = 13.8 kVA = 750 wdg = 2 bus = 328 conn = wye kV = 0.22 kVA = 750 %loadloss = 1.5 xhl = 5.0000001
+New transformer.trafo_5119 phases = 3 wdg = 1 bus = 2376 conn = delta kV = 13.8 kVA = 75.000003 wdg = 2 bus = 387 conn = wye kV = 0.22 kVA = 75.000003 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5120 phases = 3 wdg = 1 bus = 2364 conn = delta kV = 13.8 kVA = 750 wdg = 2 bus = 364 conn = wye kV = 0.22 kVA = 750 %loadloss = 1.5 xhl = 5.0000001
+New transformer.trafo_5121 phases = 3 wdg = 1 bus = 2375 conn = delta kV = 13.8 kVA = 75.000003 wdg = 2 bus = 365 conn = wye kV = 0.22 kVA = 75.000003 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5122 phases = 3 wdg = 1 bus = 2371 conn = delta kV = 13.8 kVA = 45.000002 wdg = 2 bus = 411 conn = wye kV = 0.22 kVA = 45.000002 %loadloss = 0.1 xhl = 5.0000001
+New transformer.trafo_5123 phases = 3 wdg = 1 bus = 2372 conn = delta kV = 13.8 kVA = 75.000003 wdg = 2 bus = 404 conn = wye kV = 0.22 kVA = 75.000003 %loadloss = 0.1 xhl = 5.0000001
+//------------------------------------//
+//Loads
+//------------------------------------//
+New Load.load_5795 phases = 3 Bus1 = 838 kV = 13.8 kW = 5410.7156 pf = 0.87733015 Model = 5 Conn = Wye daily = curve_load_5795
+New Load.load_5794 phases = 3 Bus1 = 2126 kV = 13.8 kW = 7301.4235 pf = 0.84740936 Model = 5 Conn = Wye daily = curve_load_5794
+New Load.load_5796 phases = 3 Bus1 = 2126 kV = 13.8 kW = 4083.3622 pf = 0.89362481 Model = 5 Conn = Wye daily = curve_load_5796
+New Load.load_5165 phases = 3 Bus1 = 296 kV = 0.22 kW = 0.099999997 pf = 1 Model = 5 Conn = Wye daily = curve_load_5165
+New Load.load_5276 phases = 3 Bus1 = 417 kV = 0.22 kW = 18.580001 pf = 0.85597031 Model = 5 Conn = Wye daily = curve_load_5276
+New Load.load_5268 phases = 3 Bus1 = 408 kV = 0.22 kW = 1.47 pf = 0.94333522 Model = 5 Conn = Wye daily = curve_load_5268
+New Load.load_5198 phases = 3 Bus1 = 329 kV = 0.22 kW = 0.31 pf = 0.82682749 Model = 5 Conn = Wye daily = curve_load_5198
+New Load.load_5180 phases = 3 Bus1 = 313 kV = 0.22 kW = 13.19 pf = 0.85183977 Model = 5 Conn = Wye daily = curve_load_5180
+New Load.load_5155 phases = 3 Bus1 = 285 kV = 0.22 kW = 11.24 pf = 0.85999801 Model = 5 Conn = Wye daily = curve_load_5155
+New Load.load_5208 phases = 3 Bus1 = 341 kV = 0.22 kW = 1 pf = 1 Model = 5 Conn = Wye daily = curve_load_5208
+New Load.load_5221 phases = 3 Bus1 = 356 kV = 0.22 kW = 1.71 pf = 1 Model = 5 Conn = Wye daily = curve_load_5221
+New Load.load_5212 phases = 3 Bus1 = 346 kV = 0.22 kW = 1.1 pf = 1 Model = 5 Conn = Wye daily = curve_load_5212
+New Load.load_5183 phases = 3 Bus1 = 316 kV = 0.22 kW = 0.60000003 pf = 1 Model = 5 Conn = Wye daily = curve_load_5183
+New Load.load_5205 phases = 3 Bus1 = 338 kV = 0.22 kW = 0.60000003 pf = 1 Model = 5 Conn = Wye daily = curve_load_5205
+New Load.load_5220 phases = 3 Bus1 = 354 kV = 0.22 kW = 1 pf = 1 Model = 5 Conn = Wye daily = curve_load_5220
+New Load.load_5219 phases = 3 Bus1 = 353 kV = 0.22 kW = 0.79999998 pf = 1 Model = 5 Conn = Wye daily = curve_load_5219
+New Load.load_5188 phases = 3 Bus1 = 322 kV = 0.22 kW = 0.89999998 pf = 1 Model = 5 Conn = Wye daily = curve_load_5188
+New Load.load_5207 phases = 3 Bus1 = 340 kV = 0.22 kW = 0.89999998 pf = 1 Model = 5 Conn = Wye daily = curve_load_5207
+New Load.load_5224 phases = 3 Bus1 = 359 kV = 0.22 kW = 0.69999998 pf = 1 Model = 5 Conn = Wye daily = curve_load_5224
+New Load.load_5190 phases = 3 Bus1 = 324 kV = 0.22 kW = 0.89999998 pf = 1 Model = 5 Conn = Wye daily = curve_load_5190
+New Load.load_5182 phases = 3 Bus1 = 315 kV = 0.22 kW = 0.79999998 pf = 1 Model = 5 Conn = Wye daily = curve_load_5182
+New Load.load_5239 phases = 3 Bus1 = 375 kV = 0.22 kW = 22.66 pf = 0.87735381 Model = 5 Conn = Wye daily = curve_load_5239
+New Load.load_5226 phases = 3 Bus1 = 361 kV = 0.22 kW = 0.69999998 pf = 1 Model = 5 Conn = Wye daily = curve_load_5226
+New Load.load_5228 phases = 3 Bus1 = 363 kV = 0.22 kW = 0.79999998 pf = 1 Model = 5 Conn = Wye daily = curve_load_5228
+New Load.load_5202 phases = 3 Bus1 = 335 kV = 0.22 kW = 0.79999998 pf = 1 Model = 5 Conn = Wye daily = curve_load_5202
+New Load.load_5191 phases = 3 Bus1 = 325 kV = 0.22 kW = 1.1 pf = 1 Model = 5 Conn = Wye daily = curve_load_5191
+New Load.load_5211 phases = 3 Bus1 = 345 kV = 0.22 kW = 0.89999998 pf = 1 Model = 5 Conn = Wye daily = curve_load_5211
+New Load.load_5210 phases = 3 Bus1 = 343 kV = 0.22 kW = 0.89999998 pf = 1 Model = 5 Conn = Wye daily = curve_load_5210
+New Load.load_5192 phases = 3 Bus1 = 326 kV = 0.22 kW = 0.89999998 pf = 1 Model = 5 Conn = Wye daily = curve_load_5192
+New Load.load_5222 phases = 3 Bus1 = 357 kV = 0.22 kW = 0.89999998 pf = 1 Model = 5 Conn = Wye daily = curve_load_5222
+New Load.load_5213 phases = 3 Bus1 = 347 kV = 0.22 kW = 0.79999998 pf = 1 Model = 5 Conn = Wye daily = curve_load_5213
+New Load.load_5227 phases = 3 Bus1 = 362 kV = 0.22 kW = 0.60000003 pf = 1 Model = 5 Conn = Wye daily = curve_load_5227
+New Load.load_5215 phases = 3 Bus1 = 349 kV = 0.22 kW = 28.379999 pf = 0.86009665 Model = 5 Conn = Wye daily = curve_load_5215
+New Load.load_5204 phases = 3 Bus1 = 337 kV = 0.22 kW = 1.2000001 pf = 1 Model = 5 Conn = Wye daily = curve_load_5204
+New Load.load_5200 phases = 3 Bus1 = 331 kV = 0.22 kW = 1 pf = 1 Model = 5 Conn = Wye daily = curve_load_5200
+New Load.load_5206 phases = 3 Bus1 = 339 kV = 0.22 kW = 0.79999998 pf = 1 Model = 5 Conn = Wye daily = curve_load_5206
+New Load.load_5201 phases = 3 Bus1 = 334 kV = 0.22 kW = 0.89999998 pf = 1 Model = 5 Conn = Wye daily = curve_load_5201
+New Load.load_5164 phases = 3 Bus1 = 295 kV = 0.22 kW = 1.53 pf = 0.99994904 Model = 5 Conn = Wye daily = curve_load_5164
+New Load.load_5217 phases = 3 Bus1 = 351 kV = 0.22 kW = 0.60000003 pf = 1 Model = 5 Conn = Wye daily = curve_load_5217
+New Load.load_5260 phases = 3 Bus1 = 400 kV = 0.22 kW = 21.062974 pf = 0.94999999 Model = 5 Conn = Wye daily = curve_load_5260
+New Load.load_5223 phases = 3 Bus1 = 358 kV = 0.22 kW = 1.7 pf = 1 Model = 5 Conn = Wye daily = curve_load_5223
+New Load.load_5218 phases = 3 Bus1 = 352 kV = 0.22 kW = 0.60000003 pf = 1 Model = 5 Conn = Wye daily = curve_load_5218
+New Load.load_5240 phases = 3 Bus1 = 376 kV = 0.22 kW = 4.1200002 pf = 0.98355247 Model = 5 Conn = Wye daily = curve_load_5240
+New Load.load_5187 phases = 3 Bus1 = 320 kV = 0.22 kW = 0.69999998 pf = 1 Model = 5 Conn = Wye daily = curve_load_5187
+New Load.load_5181 phases = 3 Bus1 = 314 kV = 0.22 kW = 0.60000003 pf = 1 Model = 5 Conn = Wye daily = curve_load_5181
+New Load.load_5186 phases = 3 Bus1 = 319 kV = 0.22 kW = 4.1700001 pf = 0.84500503 Model = 5 Conn = Wye daily = curve_load_5186
+New Load.load_5233 phases = 3 Bus1 = 369 kV = 0.22 kW = 3.1099999 pf = 0.82296926 Model = 5 Conn = Wye daily = curve_load_5233
+New Load.load_5199 phases = 3 Bus1 = 330 kV = 0.22 kW = 107.78185 pf = 0.94999999 Model = 5 Conn = Wye daily = curve_load_5199
+New Load.load_5262 phases = 3 Bus1 = 402 kV = 0.22 kW = 19.8 pf = 0.87572751 Model = 5 Conn = Wye daily = curve_load_5262
+New Load.load_5252 phases = 3 Bus1 = 391 kV = 0.22 kW = 0.46000001 pf = 0.83395084 Model = 5 Conn = Wye daily = curve_load_5252
+New Load.load_5153 phases = 3 Bus1 = 283 kV = 0.22 kW = 19.169999 pf = 0.87151478 Model = 5 Conn = Wye daily = curve_load_5153
+New Load.load_5177 phases = 3 Bus1 = 309 kV = 0.22 kW = 16.039999 pf = 0.87045558 Model = 5 Conn = Wye daily = curve_load_5177
+New Load.load_5257 phases = 3 Bus1 = 396 kV = 0.22 kW = 24.16 pf = 0.8648629 Model = 5 Conn = Wye daily = curve_load_5257
+New Load.load_5259 phases = 3 Bus1 = 398 kV = 0.22 kW = 24.92 pf = 0.86948427 Model = 5 Conn = Wye daily = curve_load_5259
+New Load.load_5154 phases = 3 Bus1 = 284 kV = 0.22 kW = 18.6 pf = 0.86173437 Model = 5 Conn = Wye daily = curve_load_5154
+New Load.load_5251 phases = 3 Bus1 = 390 kV = 0.22 kW = 50.68 pf = 0.85079838 Model = 5 Conn = Wye daily = curve_load_5251
+New Load.load_5234 phases = 3 Bus1 = 370 kV = 0.22 kW = 19.069999 pf = 0.87048946 Model = 5 Conn = Wye daily = curve_load_5234
+New Load.load_5179 phases = 3 Bus1 = 312 kV = 0.22 kW = 7.4 pf = 0.93093952 Model = 5 Conn = Wye daily = curve_load_5179
+New Load.load_5237 phases = 3 Bus1 = 373 kV = 0.22 kW = 4.2500002 pf = 0.95210284 Model = 5 Conn = Wye daily = curve_load_5237
+New Load.load_5242 phases = 3 Bus1 = 379 kV = 0.22 kW = 41.620001 pf = 0.85079689 Model = 5 Conn = Wye daily = curve_load_5242
+New Load.load_5265 phases = 3 Bus1 = 405 kV = 0.22 kW = 46.149999 pf = 0.85649654 Model = 5 Conn = Wye daily = curve_load_5265
+New Load.load_5263 phases = 3 Bus1 = 403 kV = 0.22 kW = 20.38 pf = 0.85637995 Model = 5 Conn = Wye daily = curve_load_5263
+New Load.load_5157 phases = 3 Bus1 = 287 kV = 0.22 kW = 27.070001 pf = 0.85370949 Model = 5 Conn = Wye daily = curve_load_5157
+New Load.load_5235 phases = 3 Bus1 = 371 kV = 0.22 kW = 40.95 pf = 0.8544161 Model = 5 Conn = Wye daily = curve_load_5235
+New Load.load_5209 phases = 3 Bus1 = 342 kV = 0.22 kW = 4.46 pf = 0.97802927 Model = 5 Conn = Wye daily = curve_load_5209
+New Load.load_5231 phases = 3 Bus1 = 367 kV = 0.22 kW = 7.7800001 pf = 0.95024915 Model = 5 Conn = Wye daily = curve_load_5231
+New Load.load_5253 phases = 3 Bus1 = 392 kV = 0.22 kW = 29.12 pf = 0.85481344 Model = 5 Conn = Wye daily = curve_load_5253
+New Load.load_5256 phases = 3 Bus1 = 395 kV = 0.22 kW = 52.960001 pf = 0.83468832 Model = 5 Conn = Wye daily = curve_load_5256
+New Load.load_5255 phases = 3 Bus1 = 394 kV = 0.22 kW = 7.3199999 pf = 0.96805839 Model = 5 Conn = Wye daily = curve_load_5255
+New Load.load_5250 phases = 3 Bus1 = 389 kV = 0.22 kW = 19.069999 pf = 0.90788122 Model = 5 Conn = Wye daily = curve_load_5250
+New Load.load_5166 phases = 3 Bus1 = 297 kV = 0.22 kW = 17.000001 pf = 0.87221724 Model = 5 Conn = Wye daily = curve_load_5166
+New Load.load_5241 phases = 3 Bus1 = 378 kV = 0.22 kW = 45.699999 pf = 0.86056767 Model = 5 Conn = Wye daily = curve_load_5241
+New Load.load_5162 phases = 3 Bus1 = 293 kV = 0.22 kW = 4.4200001 pf = 0.99999453 Model = 5 Conn = Wye daily = curve_load_5162
+New Load.load_5243 phases = 3 Bus1 = 380 kV = 0.22 kW = 3.5600001 pf = 0.9976704 Model = 5 Conn = Wye daily = curve_load_5243
+New Load.load_5158 phases = 3 Bus1 = 289 kV = 0.22 kW = 3.5999999 pf = 1 Model = 5 Conn = Wye daily = curve_load_5158
+New Load.load_5273 phases = 3 Bus1 = 414 kV = 0.22 kW = 39.650001 pf = 0.84975218 Model = 5 Conn = Wye daily = curve_load_5273
+New Load.load_5172 phases = 3 Bus1 = 304 kV = 0.22 kW = 38.05 pf = 0.83240512 Model = 5 Conn = Wye daily = curve_load_5172
+New Load.load_5254 phases = 3 Bus1 = 393 kV = 0.22 kW = 30.990001 pf = 0.83824006 Model = 5 Conn = Wye daily = curve_load_5254
+New Load.load_5159 phases = 3 Bus1 = 290 kV = 0.22 kW = 34.97 pf = 0.85898534 Model = 5 Conn = Wye daily = curve_load_5159
+New Load.load_5266 phases = 3 Bus1 = 406 kV = 0.22 kW = 22.059999 pf = 0.85016337 Model = 5 Conn = Wye daily = curve_load_5266
+New Load.load_5275 phases = 3 Bus1 = 416 kV = 0.22 kW = 9.0500005 pf = 0.92234295 Model = 5 Conn = Wye daily = curve_load_5275
+New Load.load_5245 phases = 3 Bus1 = 382 kV = 0.22 kW = 60.940001 pf = 0.84647386 Model = 5 Conn = Wye daily = curve_load_5245
+New Load.load_5170 phases = 3 Bus1 = 302 kV = 0.22 kW = 51.270001 pf = 0.85687716 Model = 5 Conn = Wye daily = curve_load_5170
+New Load.load_5244 phases = 3 Bus1 = 381 kV = 0.22 kW = 41.990001 pf = 0.84938916 Model = 5 Conn = Wye daily = curve_load_5244
+New Load.load_5161 phases = 3 Bus1 = 292 kV = 0.22 kW = 39.54 pf = 0.86043453 Model = 5 Conn = Wye daily = curve_load_5161
+New Load.load_5171 phases = 3 Bus1 = 303 kV = 0.22 kW = 78.050002 pf = 0.84607499 Model = 5 Conn = Wye daily = curve_load_5171
+New Load.load_5173 phases = 3 Bus1 = 305 kV = 0.22 kW = 42.309999 pf = 0.85239343 Model = 5 Conn = Wye daily = curve_load_5173
+New Load.load_5246 phases = 3 Bus1 = 383 kV = 0.22 kW = 67.419998 pf = 0.83794734 Model = 5 Conn = Wye daily = curve_load_5246
+New Load.load_5163 phases = 3 Bus1 = 294 kV = 0.22 kW = 50.85 pf = 0.85009637 Model = 5 Conn = Wye daily = curve_load_5163
+New Load.load_5238 phases = 3 Bus1 = 374 kV = 0.22 kW = 9.4699999 pf = 0.90296765 Model = 5 Conn = Wye daily = curve_load_5238
+New Load.load_5184 phases = 3 Bus1 = 317 kV = 0.22 kW = 39.829999 pf = 0.85492898 Model = 5 Conn = Wye daily = curve_load_5184
+New Load.load_5272 phases = 3 Bus1 = 413 kV = 0.22 kW = 13.29 pf = 0.94472168 Model = 5 Conn = Wye daily = curve_load_5272
+New Load.load_5168 phases = 3 Bus1 = 300 kV = 0.22 kW = 49.819998 pf = 0.84968269 Model = 5 Conn = Wye daily = curve_load_5168
+New Load.load_5277 phases = 3 Bus1 = 418 kV = 0.22 kW = 10.33 pf = 0.90040738 Model = 5 Conn = Wye daily = curve_load_5277
+New Load.load_5232 phases = 3 Bus1 = 368 kV = 0.22 kW = 1 pf = 0.82251298 Model = 5 Conn = Wye daily = curve_load_5232
+New Load.load_5248 phases = 3 Bus1 = 386 kV = 0.22 kW = 41.499998 pf = 0.85144433 Model = 5 Conn = Wye daily = curve_load_5248
+New Load.load_5174 phases = 3 Bus1 = 306 kV = 0.22 kW = 71.939997 pf = 0.84628824 Model = 5 Conn = Wye daily = curve_load_5174
+New Load.load_5267 phases = 3 Bus1 = 407 kV = 0.22 kW = 29.12 pf = 0.85802072 Model = 5 Conn = Wye daily = curve_load_5267
+New Load.load_5169 phases = 3 Bus1 = 301 kV = 0.22 kW = 5.99 pf = 0.88112782 Model = 5 Conn = Wye daily = curve_load_5169
+New Load.load_5278 phases = 3 Bus1 = 419 kV = 0.22 kW = 50.609998 pf = 0.85235286 Model = 5 Conn = Wye daily = curve_load_5278
+New Load.load_5261 phases = 3 Bus1 = 401 kV = 0.22 kW = 21.779999 pf = 0.85691909 Model = 5 Conn = Wye daily = curve_load_5261
+New Load.load_5160 phases = 3 Bus1 = 291 kV = 0.22 kW = 25.359999 pf = 0.89637851 Model = 5 Conn = Wye daily = curve_load_5160
+New Load.load_5185 phases = 3 Bus1 = 318 kV = 0.22 kW = 19.880001 pf = 0.83969697 Model = 5 Conn = Wye daily = curve_load_5185
+New Load.load_5175 phases = 3 Bus1 = 307 kV = 0.22 kW = 23.62 pf = 0.86446566 Model = 5 Conn = Wye daily = curve_load_5175
+New Load.load_5271 phases = 3 Bus1 = 412 kV = 0.22 kW = 35.48 pf = 0.85393969 Model = 5 Conn = Wye daily = curve_load_5271
+New Load.load_5216 phases = 3 Bus1 = 350 kV = 0.22 kW = 184.30102 pf = 0.94999999 Model = 5 Conn = Wye daily = curve_load_5216
+New Load.load_5274 phases = 3 Bus1 = 415 kV = 0.22 kW = 5.81 pf = 0.84597128 Model = 5 Conn = Wye daily = curve_load_5274
+New Load.load_5176 phases = 3 Bus1 = 308 kV = 0.22 kW = 13.02 pf = 0.83803829 Model = 5 Conn = Wye daily = curve_load_5176
+New Load.load_5196 phases = 3 Bus1 = 328 kV = 0.22 kW = 1.76 pf = 0.82731445 Model = 5 Conn = Wye daily = curve_load_5196
+New Load.load_5197 phases = 3 Bus1 = 328 kV = 0.22 kW = 35.252407 pf = 0.94999999 Model = 5 Conn = Wye daily = curve_load_5197
+New Load.load_5249 phases = 3 Bus1 = 387 kV = 0.22 kW = 50.810002 pf = 0.85067088 Model = 5 Conn = Wye daily = curve_load_5249
+New Load.load_5229 phases = 3 Bus1 = 364 kV = 0.22 kW = 142.711 pf = 0.94999999 Model = 5 Conn = Wye daily = curve_load_5229
+New Load.load_5230 phases = 3 Bus1 = 365 kV = 0.22 kW = 55.599999 pf = 0.84705021 Model = 5 Conn = Wye daily = curve_load_5230
+New Load.load_5270 phases = 3 Bus1 = 411 kV = 0.22 kW = 24.390001 pf = 0.84957007 Model = 5 Conn = Wye daily = curve_load_5270
+New Load.load_5264 phases = 3 Bus1 = 404 kV = 0.22 kW = 39.88 pf = 0.84509589 Model = 5 Conn = Wye daily = curve_load_5264
+
+//------------------------------------//
+//Protected Devices
+//--------------------------------------------//
+Redirect        ProtectedDevices.dss
+//--------------------------------------------//
+
+set voltagebases = [88 13.8 0.22 ]
+//--------------------------------------------------------------------------------
+calcvoltagebases
+//-------------------------------------------------
+Buscoords BusCoords.dat   ! load in bus coordinates
+//----------------------------------------------------------------
+// monitors
+//--------------------------------------------------------------
+Redirect        Monitors.dss
+//--------------------------------------------//
+set mode=snap
+Solve
+//--------------------------------------------------------------------------------
