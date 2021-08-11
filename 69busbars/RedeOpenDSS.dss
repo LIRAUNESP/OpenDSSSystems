@@ -1,0 +1,34 @@
+Clear
+Set DefaultBaseFrequency=60
+
+New Circuit.Rede69 bus1=0 basekv=12.66 pu=1.00 phases=3 mvasc3=3000 mvasc1=2500 ! Barra infinita => potência de CC elevadas
+
+
+// Data
+//H. -. Chiang and R. Jean-Jumeau, "Optimal network reconfigurations in distribution systems. II. Solution algorithms and numerical results," 
+//in IEEE Transactions on Power Delivery, vol. 5, no. 3, pp. 1568-1574, July 1990, doi: 10.1109/61.58002.
+
+Redirect 69_Trafo.dss
+Redirect 69_LoadShape.dss
+Redirect 69_LineCodes.dss
+Redirect 69_Lines.dss
+Redirect 69_Loads.dss
+Redirect 69_ProtectedDevices.dss
+
+
+//--------------------------------------------------------------------------------
+Set voltagebases = [12.66 0.44 0.22]
+Calcvoltagebases
+
+
+set mode=snap
+//set mode=daily
+//set stepsize = 1h
+//set number = 24
+
+Solve
+
+
+
+
+
