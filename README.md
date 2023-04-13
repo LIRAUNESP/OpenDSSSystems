@@ -10,4 +10,6 @@ This repository is intended to keep the distribution systems used in our laborat
 
 - Network 332: description
 
+- Network 670: description
+
 Please cite: 
