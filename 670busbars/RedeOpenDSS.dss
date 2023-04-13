@@ -1,0 +1,85 @@
+//-----------------------------
+//Prof. Dr. Juan Carlos Cebrian
+//-----------------------------
+ 
+//------------------
+//CIRCUIT
+//------------------
+ 
+clear
+ 
+//----------------------
+//EQUIVALENTE DE THEVENIN
+//----------------------
+ 
+//----------------------
+//Número de ligações = 687
+//Número de nós = 688
+//--------------------------------------------//
+
+//Arquivo contendo os loadShape das cargas//
+Redirect        LoadShape.dss
+//--------------------------------------------//
+new circuit.RedeOpenDSS bus1 = 2261 pu = 1.02 basekv = 88 phases = 3 mvasc3 = 2158.70331449229 mvasc1 = 2061.55281280883 x1r1 = 4.20000008679926 x0r0 = 3.68978115260079 
+//-----------------------
+
+Redirect _Transformers.dss
+Redirect Loads.dss
+Redirect Lines.dss
+//Redirect PVS.dss
+//------------------------------------//
+//linhas trifásicas equilibrada
+//--------------------------------------------//
+ 
+//------------------------------------//
+//Transformadores trifásicos
+//--------------------------------------------//
+
+//------------------------------------//
+//Cargas trifásicas
+//------------------------------------//
+
+// capacitores
+New Capacitor.cap1 phases = 3 bus1=1810 kvar = 1000 kv = 13.8 Conn = delta
+New Capacitor.cap2 phases = 3 bus1=254 kvar = 500 kv = 13.8 Conn = delta
+New Capacitor.cap3 phases = 3 bus1=229 kvar = 1000 kv = 13.8 Conn = delta
+New Capacitor.cap4 phases = 3 bus1=213 kvar = 1000 kv = 13.8 Conn = delta
+New Capacitor.cap5 phases = 3 bus1=181 kvar = 500 kv = 13.8 Conn = delta
+New Capacitor.cap6 phases = 3 bus1=246 kvar = 500 kv = 13.8 Conn = delta
+New Capacitor.cap7 phases = 3 bus1=128 kvar = 200 kv = 13.8 Conn = delta
+New Capacitor.cap8 phases = 3 bus1=145 kvar = 200 kv = 13.8 Conn = delta
+New Capacitor.cap9 phases = 3 bus1=60 kvar = 50 kv = 13.8 Conn = delta
+
+New Capacitor.cap10 phases = 3 bus1=106 kvar = 100 kv = 13.8 Conn = delta
+New Capacitor.cap11 phases = 3 bus1=1776 kvar = 300 kv = 13.8 Conn = delta
+//------------------------------------//
+//Chaves de proteção
+//--------------------------------------------//
+Redirect        ProtectedDevices.dss
+//--------------------------------------------//
+//----------------------
+//Definição da tensão base
+set voltagebases = [88 13.8 0.44 0.22 0.23999999 ]
+//--------------------------------------------------------------------------------
+calcvoltagebases
+// define as coordenadas das barras
+Buscoords BusCoords.dat   ! load in bus coordinates
+//----------------------------------------------------------------
+// monitores
+//--------------------------------------------------------------
+//--------------------------------------------//
+//Arquivo contendo os loadShape das cargas//
+//Redirect        Monitors.dss
+
+//New EnergyMeter.sub element=line.linha_MCLD205_2549   terminal = 1
+
+//--------------------------------------------//
+//Opção de cálculo
+set mode=snap
+//set mode=daily
+//set stepsize = 1h
+//set number = 5
+Solve
+//--------------------------------------------------------------------------------
+
+//plot profile

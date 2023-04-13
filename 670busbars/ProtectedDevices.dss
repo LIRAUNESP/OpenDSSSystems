@@ -1,0 +1,168 @@
+new TCC_Curve.Curva_IT_101 npts=8 c_array=(1.0   1.5   1.7   2.0   2.5   3.0   6.0   10.0)
+~                        t_array=(0.140 0.036 0.025 0.022 0.018 0.016 0.015 0.015)
+new TCC_Curve.Curva_IT_133 npts=7 c_array=(1.0  10.0  15.0  25.0  35.0  50.0  100.0)
+~                        t_array=(14.0 0.16  0.09  0.052 0.042 0.039 0.039)
+//------------------------------------//
+//Disjuntor
+//--------------------------------------------//
+New Fuse.Disjuntor_4039 MonitoredObj = line.linha_MCLD205_2549 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+//------------------------------------//
+//Fusível
+//--------------------------------------------//
+New Fuse.Fusivel_4046 MonitoredObj = line.linha_MCLD205_2571 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4048 MonitoredObj = line.linha_MCLD205_2573 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4051 MonitoredObj = line.linha_MCLD205_2587 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4052 MonitoredObj = line.linha_MCLD205_2589 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4055 MonitoredObj = line.linha_MCLD205_2591 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4056 MonitoredObj = line.linha_MCLD205_2602 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4064 MonitoredObj = line.linha_MCLD205_2619 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4065 MonitoredObj = line.linha_MCLD205_2620 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4068 MonitoredObj = line.linha_MCLD205_2641 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4067 MonitoredObj = line.linha_MCLD205_2638 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4070 MonitoredObj = line.linha_MCLD205_2642 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4072 MonitoredObj = line.linha_MCLD205_2649 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4077 MonitoredObj = line.linha_MCLD205_2663 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4075 MonitoredObj = line.linha_MCLD205_2655 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4076 MonitoredObj = line.linha_MCLD205_2661 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4078 MonitoredObj = line.linha_MCLD205_2675 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4079 MonitoredObj = line.linha_MCLD205_2668 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4080 MonitoredObj = line.linha_MCLD205_2685 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4081 MonitoredObj = line.linha_MCLD205_2680 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4084 MonitoredObj = line.linha_MCLD205_2694 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4085 MonitoredObj = line.linha_MCLD205_2708 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4086 MonitoredObj = line.linha_MCLD205_2709 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4090 MonitoredObj = line.linha_MCLD205_2711 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4087 MonitoredObj = line.linha_MCLD205_2716 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4089 MonitoredObj = line.linha_MCLD205_2730 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4092 MonitoredObj = line.linha_MCLD205_2712 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4095 MonitoredObj = line.linha_MCLD205_2733 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4096 MonitoredObj = line.linha_MCLD205_2735 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4097 MonitoredObj = line.linha_MCLD205_2742 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4100 MonitoredObj = line.linha_MCLD205_2761 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4103 MonitoredObj = line.linha_MCLD205_2766 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4104 MonitoredObj = line.linha_MCLD205_2777 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4106 MonitoredObj = line.linha_MCLD205_2768 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4108 MonitoredObj = line.linha_MCLD205_2773 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4110 MonitoredObj = line.linha_MCLD205_2778 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4112 MonitoredObj = line.linha_MCLD205_2799 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4113 MonitoredObj = line.linha_MCLD205_2787 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4114 MonitoredObj = line.linha_MCLD205_2815 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4118 MonitoredObj = line.linha_MCLD205_2807 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4117 MonitoredObj = line.linha_MCLD205_2823 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4119 MonitoredObj = line.linha_MCLD205_2822 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4122 MonitoredObj = line.linha_MCLD205_2819 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4121 MonitoredObj = line.linha_MCLD205_2832 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4120 MonitoredObj = line.linha_MCLD205_2825 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4125 MonitoredObj = line.linha_MCLD205_2841 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4128 MonitoredObj = line.linha_MCLD205_2859 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4127 MonitoredObj = line.linha_MCLD205_2837 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4129 MonitoredObj = line.linha_MCLD205_2854 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4132 MonitoredObj = line.linha_MCLD205_2877 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4134 MonitoredObj = line.linha_MCLD205_2872 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4138 MonitoredObj = line.linha_MCLD205_2898 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4139 MonitoredObj = line.linha_MCLD205_2892 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4142 MonitoredObj = line.linha_MCLD205_2923 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4143 MonitoredObj = line.linha_MCLD205_2909 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4144 MonitoredObj = line.linha_MCLD205_2927 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4145 MonitoredObj = line.linha_MCLD205_2928 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4147 MonitoredObj = line.linha_MCLD205_2940 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4148 MonitoredObj = line.linha_MCLD205_2920 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4149 MonitoredObj = line.linha_MCLD205_2935 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4150 MonitoredObj = line.linha_MCLD205_2929 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4151 MonitoredObj = line.linha_MCLD205_2945 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4153 MonitoredObj = line.linha_MCLD205_2937 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4154 MonitoredObj = line.linha_MCLD205_2952 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4155 MonitoredObj = line.linha_MCLD205_2956 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4158 MonitoredObj = line.linha_MCLD205_2966 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4159 MonitoredObj = line.linha_MCLD205_2975 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4161 MonitoredObj = line.linha_MCLD205_2981 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4160 MonitoredObj = line.linha_MCLD205_2980 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4162 MonitoredObj = line.linha_MCLD205_2972 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4165 MonitoredObj = line.linha_MCLD205_2983 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4166 MonitoredObj = line.linha_MCLD205_2988 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4168 MonitoredObj = line.linha_MCLD205_2998 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4169 MonitoredObj = line.linha_MCLD205_2999 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4171 MonitoredObj = line.linha_MCLD205_3001 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4174 MonitoredObj = line.linha_MCLD205_3008 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4175 MonitoredObj = line.linha_MCLD205_3011 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4177 MonitoredObj = line.linha_MCLD205_3016 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4180 MonitoredObj = line.linha_MCLD205_3038 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4181 MonitoredObj = line.linha_MCLD205_3031 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4182 MonitoredObj = line.linha_MCLD205_3040 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+New Fuse.Fusivel_4183 MonitoredObj = line.linha_MCLD205_3043 MonitoredTerm = 1  Fusecurve=TLINK ratedcurrent=200 enabled = false ! 65T fuse
+//------------------------------------//
+//Religadores
+//--------------------------------------------//
+New Recloser.Religador_4082 MonitoredObj = line.linha_MCLD205_2677 monitoredterm=1 switchedterm=1 delay=0.042 enabled = false 
+~ numfast=1 phasefast=Curva_IT_101 phasedelayed=Curva_IT_133 phasetrip=200 tdphfast=1 tdphdelayed=1
+~ shots=4 recloseintervals=(2, 2, 5)
+
+New Recloser.Religador_4126 MonitoredObj = line.linha_MCLD205_2828 monitoredterm=1 switchedterm=1 delay=0.042 enabled = false 
+~ numfast=1 phasefast=Curva_IT_101 phasedelayed=Curva_IT_133 phasetrip=200 tdphfast=1 tdphdelayed=1
+~ shots=4 recloseintervals=(2, 2, 5)
+
+//------------------------------------//
+//Seccionadores NF
+New Swtcontrol.Seccionador_4042 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2554 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4043 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2555 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4044 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2560 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4045 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2565 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4050 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2582 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4053 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2588 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4054 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2590 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4058 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2597 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4060 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2605 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4061 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2615 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4066 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2624 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4069 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2644 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4071 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2637 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4073 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2647 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4083 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2687 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4091 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2707 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4094 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2726 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4098 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2746 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4099 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2743 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4101 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2753 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4105 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2771 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4107 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2760 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4109 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2781 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4111 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2790 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4115 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2792 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4116 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2796 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4123 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2834 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4124 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2826 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4130 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2851 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4131 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2858 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4135 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2875 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4136 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2895 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4137 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2883 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4140 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2897 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4146 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2916 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4156 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2943 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4164 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2976 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4167 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2997 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4172 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_3007 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4173 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_3005 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4176 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_3015 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4178 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_3033 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+New Swtcontrol.Seccionador_4179 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_3032 SwitchedTerm=1 lock=no Normal = closed enabled= TRUE
+
+//Seccionadores NA
+//New Swtcontrol.Seccionador_4047 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2570 SwitchedTerm=2 lock=no Normal = open enabled= TRUE
+//New Swtcontrol.Seccionador_4049 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2577 SwitchedTerm=2 lock=no Normal = open enabled= TRUE
+//New Swtcontrol.Seccionador_4423 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2599 SwitchedTerm=2 lock=no Normal = open enabled= TRUE
+//New Swtcontrol.Seccionador_4057 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2598 SwitchedTerm=2 lock=no Normal = open enabled= TRUE
+//New Swtcontrol.Seccionador_4059 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2607 SwitchedTerm=2 lock=no Normal = open enabled= TRUE
+//New Swtcontrol.Seccionador_4062 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2612 SwitchedTerm=2 lock=no Normal = open enabled= TRUE
+//New Swtcontrol.Seccionador_4063 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2616 SwitchedTerm=2 lock=no Normal = open enabled= TRUE
+//New Swtcontrol.Seccionador_4429 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2639 SwitchedTerm=2 lock=no Normal = open enabled= TRUE
+//New Swtcontrol.Seccionador_4074 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2653 SwitchedTerm=2 lock=no Normal = open enabled= TRUE
+//New Swtcontrol.Seccionador_4088 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2806 SwitchedTerm=2 lock=no Normal = open enabled= TRUE
+//New Swtcontrol.Seccionador_4093 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2720 SwitchedTerm=2 lock=no Normal = open enabled= TRUE
+//New Swtcontrol.Seccionador_4102 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2754 SwitchedTerm=2 lock=no Normal = open enabled= TRUE
+//New Swtcontrol.Seccionador_4469 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2762 SwitchedTerm=2 lock=no Normal = open enabled= TRUE
+//New Swtcontrol.Seccionador_4141 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2902 SwitchedTerm=2 lock=no Normal = open enabled= TRUE
+//New Swtcontrol.Seccionador_4152 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2931 SwitchedTerm=2 lock=no Normal = open enabled= TRUE
+//New Swtcontrol.Seccionador_4460 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2947 SwitchedTerm=2 lock=no Normal = open enabled= TRUE
+//New Swtcontrol.Seccionador_4163 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_2967 SwitchedTerm=2 lock=no Normal = open enabled= TRUE
+//New Swtcontrol.Seccionador_4184 basefreq=60 Delay=0.0 SwitchedObj = line.linha_MCLD205_3045 SwitchedTerm=2 lock=no Normal = open enabled= TRUE
