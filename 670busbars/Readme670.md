@@ -12,6 +12,13 @@
 ### Transformers
 ![image](https://user-images.githubusercontent.com/79546433/231645220-6b27d555-a568-47bf-a483-91239c354f14.png)
 
-
 ### Protected devices
 ![image](https://user-images.githubusercontent.com/79546433/231650483-5d4b3b82-692b-4f2e-b499-a1d1a0553bfe.png)
+
+### Cumulative distribution function for voltage sag duration
+ 
+![image](https://github.com/LIRAUNESP/OpenDSSSystems/assets/79546433/e1c02ca5-1b99-4969-9001-cf85233d3139)
+
+Fig. 1. Cumulative distribution function of voltage sag duration (PSgD) used in the 670-busbar network.
+
+![image](https://github.com/LIRAUNESP/OpenDSSSystems/assets/79546433/b2a4ad99-70f3-4873-ac10-f296c8419da2)
